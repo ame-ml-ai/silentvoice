@@ -5,6 +5,9 @@ of a speaker's mouth, with no audio, using the pretrained Auto-AVSR visual speec
 recognition model. It studies whether partial fine-tuning on a new domain (the GRID
 corpus) improves recognition on unseen speakers, within one 12 GB GPU.
 
+**Live demo (research dashboard, static):** <https://silentvoice-alpha.vercel.app/research>
+· live recognition needs the GPU backend, so it runs only locally.
+
 > **Status (2026-11-10):** the stack runs end to end on an RTX 4060 Laptop (Windows).
 > **Pilot result:** partial fine-tuning on 2 GRID speakers cut WER on unseen speakers from
 > **0.867 to 0.224** (500 test clips; see [Research results](#research-results)). The full
