@@ -42,11 +42,12 @@
 - **No experiment run.** All metrics are pending.
 - MediaPipe face detection on a real face was not exercised on the Mac: no face video was available, and test videos are synthetic. The crop code is tested with fixed keypoints.
 - The webcam recorder was not exercised with a real camera in this session.
-- No git remote; nothing pushed.
+
+### Repository
+- Pushed to <https://github.com/ame-ml-ai/silentvoice> (public), branch `main`. Clone with `--recurse-submodules`.
 
 ### Blockers
 - GPU work needs the RTX 5070 machine.
-- Pushing to GitHub needs a remote URL (or `gh` login) from the user.
 
 ## Next (Environment B)
 Follow [CONTINUE_ON_RTX5070.md](CONTINUE_ON_RTX5070.md).
