@@ -1,0 +1,66 @@
+{
+  "experiments": [
+    {
+      "id": "baseline",
+      "kind": "baseline",
+      "status": "complete",
+      "path": "pilot/baseline/results.json",
+      "split": "test",
+      "num_samples": 500,
+      "wer": 0.8673333333333333,
+      "cer": 0.6279732811990877,
+      "latency_mean_s": 1.7031615191998717,
+      "real_time_factor": 0.5677356460171843,
+      "peak_gpu_gb": 1.257,
+      "parameters_total": 250383410,
+      "parameters_trainable": 250383410,
+      "checkpoint": "vsr_trlrs3vox2_base.pth",
+      "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "training": null
+    },
+    {
+      "id": "finetuning",
+      "kind": "finetuning",
+      "status": "complete",
+      "path": "pilot/finetuning/results.json",
+      "split": "test",
+      "num_samples": 500,
+      "wer": 0.224,
+      "cer": 0.14573150863473444,
+      "latency_mean_s": 1.1192531964000372,
+      "real_time_factor": 0.3730943479826253,
+      "peak_gpu_gb": 1.116,
+      "parameters_total": 250383410,
+      "parameters_trainable": 125173362,
+      "checkpoint": "best.pth",
+      "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "training": {
+        "status": "complete",
+        "best_val_wer": 0.165,
+        "epochs_run": 2,
+        "optimizer_steps": 124,
+        "training_time_s": 470.3,
+        "peak_gpu_allocated_gb": 2.959,
+        "parameters": {
+          "frontend": 11182784,
+          "proj_encoder": 393984,
+          "encoder": 170451456,
+          "decoder": 64472505,
+          "ctc": 3882681,
+          "total": 250383410,
+          "trainable": 125173362
+        },
+        "freeze": {
+          "frontend": false,
+          "proj_encoder": false,
+          "encoder_blocks_trainable": 4,
+          "decoder": true,
+          "ctc": true
+        },
+        "train_clips": 2000,
+        "amp": "bf16"
+      }
+    }
+  ],
+  "note": "Only results.json files written by ml/evaluation/evaluate.py with status 'complete' are results. 'smoke' entries are CPU pipeline checks and are not experimental results."
+}

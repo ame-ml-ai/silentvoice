@@ -1,0 +1,67 @@
+{
+  "state": "error",
+  "message": "Checkpoint not found: .",
+  "model_name": "Auto-AVSR visual-only (Ma et al., ICASSP 2023)",
+  "checkpoint": null,
+  "checkpoint_md5": null,
+  "device": null,
+  "decode": null,
+  "parameters": {
+    "frontend": 11182784,
+    "proj_encoder": 393984,
+    "encoder": 170451456,
+    "decoder": 64472505,
+    "ctc": 3882681,
+    "total": 250383410,
+    "trainable": 250383410
+  },
+  "vocab_size": null,
+  "architecture": [
+    {
+      "name": "Input",
+      "detail": "Grayscale mouth region, 88x88 px, 25 fps. Visual only: audio is never read.",
+      "parameters": null
+    },
+    {
+      "name": "Visual frontend",
+      "detail": "Conv3d 1->64 (kernel 5x7x7, stride 1x2x2) + BN + SiLU + MaxPool3d, then a ResNet-18 applied per frame with global average pooling -> 512-d",
+      "parameters": 11182784
+    },
+    {
+      "name": "Projection",
+      "detail": "Linear 512 -> 768",
+      "parameters": 393984
+    },
+    {
+      "name": "Conformer encoder",
+      "detail": "12 blocks, d=768, 12 heads, FFN 3072, depthwise conv kernel 31",
+      "parameters": 170451456
+    },
+    {
+      "name": "CTC head",
+      "detail": "Linear 768 -> 5049 tokens; weight 0.1 in loss and in decoding",
+      "parameters": 3882681
+    },
+    {
+      "name": "Transformer decoder",
+      "detail": "6 blocks, d=768, 12 heads, FFN 3072; weight 0.9",
+      "parameters": 64472505
+    },
+    {
+      "name": "Beam search",
+      "detail": "Joint CTC/attention, beam 40, no external language model",
+      "parameters": null
+    },
+    {
+      "name": "Output",
+      "detail": "SentencePiece unigram tokens (5047 units) -> text",
+      "parameters": null
+    }
+  ],
+  "upstream": {
+    "repository": "https://github.com/mpc001/auto_avsr",
+    "commit": "182b62837773ab01052d4ac21ef1d2203ea7d267",
+    "license": "Apache-2.0 (code); checkpoint terms follow their training data"
+  },
+  "input_modality": "video"
+}

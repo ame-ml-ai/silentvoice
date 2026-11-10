@@ -1,0 +1,7 @@
+{
+  "status": "ok",
+  "version": "0.1.0",
+  "model_state": "not_configured",
+  "device": "none (static demo)",
+  "cuda_available": false
+}

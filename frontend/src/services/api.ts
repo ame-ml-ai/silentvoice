@@ -13,7 +13,27 @@ export class ApiError extends Error {
   }
 }
 
+/** Built with VITE_STATIC_DEMO=1 (e.g. on Vercel): no backend, read-only endpoints are served
+ *  from JSON exported by scripts/export_static_demo.py; recognition needs the local GPU API. */
+export const STATIC_DEMO = import.meta.env.VITE_STATIC_DEMO === '1'
+
+const STATIC_FILES: Record<string, string> = {
+  '/api/health': '/demo/health.json',
+  '/api/model/info': '/demo/model-info.json',
+  '/api/experiments': '/demo/experiments.json',
+  '/api/experiments/compare': '/demo/compare.json',
+}
+
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  if (STATIC_DEMO) {
+    const file = STATIC_FILES[path]
+    if (!file) {
+      throw new ApiError(503, 'static_demo',
+        'This hosted demo has no inference server: the 250M-parameter model needs a GPU backend. '
+        + 'Clone the repository and run the API locally to recognise videos.')
+    }
+    path = file
+  }
   let res: Response
   try {
     res = await fetch(path, init)

@@ -89,8 +89,8 @@ export default function ResearchPage() {
                 <YAxis {...axis} unit="%" />
                 <Tooltip {...tooltip} formatter={(v) => `${Number(v).toFixed(2)}%`} cursor={{ fill: 'var(--color-ink-800)' }} />
                 <Legend wrapperStyle={{ fontSize: 12 }} />
-                <Bar dataKey="Baseline" fill="var(--color-chart-2)" radius={[3, 3, 0, 0]} />
-                <Bar dataKey="Fine-tuned" fill="var(--color-accent)" radius={[3, 3, 0, 0]} />
+                <Bar dataKey="Baseline" fill="var(--color-chart-2)" radius={[3, 3, 0, 0]} isAnimationActive={false} />
+                <Bar dataKey="Fine-tuned" fill="var(--color-accent)" radius={[3, 3, 0, 0]} isAnimationActive={false} />
               </BarChart>
             </ResponsiveContainer>
           ) : <ChartPending>Chart appears once both evaluations have written results.json.</ChartPending>}
@@ -103,7 +103,7 @@ export default function ResearchPage() {
                 <XAxis dataKey="step" {...axis} />
                 <YAxis {...axis} />
                 <Tooltip {...tooltip} />
-                <Line type="monotone" dataKey="loss" stroke="var(--color-accent)" dot={false} strokeWidth={1.5} name="train loss" />
+                <Line type="monotone" dataKey="loss" stroke="var(--color-accent)" dot={false} strokeWidth={1.5} name="train loss" isAnimationActive={false} />
               </LineChart>
             </ResponsiveContainer>
           ) : <ChartPending>Training loss and validation WER appear here from experiments/finetuning/train_log.jsonl.</ChartPending>}

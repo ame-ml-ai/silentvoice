@@ -16,6 +16,7 @@ const HINTS: Record<string, string> = {
   file_too_large: 'Compress the video or shorten it.',
   unsupported_format: 'Convert the file to MP4.',
   network_error: 'Start the API with: uvicorn backend.app.main:app --port 8000',
+  static_demo: 'See the README: setup, checkpoint download, then uvicorn + npm run dev.',
 }
 
 function ErrorCallout({ code, message }: { code: string; message: string }) {

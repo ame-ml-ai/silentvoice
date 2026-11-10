@@ -1,0 +1,113 @@
+{
+  "status": "complete",
+  "reasons": [],
+  "baseline": {
+    "id": "baseline",
+    "kind": "baseline",
+    "status": "complete",
+    "path": "pilot/baseline/results.json",
+    "split": "test",
+    "num_samples": 500,
+    "wer": 0.8673333333333333,
+    "cer": 0.6279732811990877,
+    "latency_mean_s": 1.7031615191998717,
+    "real_time_factor": 0.5677356460171843,
+    "peak_gpu_gb": 1.257,
+    "parameters_total": 250383410,
+    "parameters_trainable": 250383410,
+    "checkpoint": "vsr_trlrs3vox2_base.pth",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "training": null
+  },
+  "finetuned": {
+    "id": "finetuning",
+    "kind": "finetuning",
+    "status": "complete",
+    "path": "pilot/finetuning/results.json",
+    "split": "test",
+    "num_samples": 500,
+    "wer": 0.224,
+    "cer": 0.14573150863473444,
+    "latency_mean_s": 1.1192531964000372,
+    "real_time_factor": 0.3730943479826253,
+    "peak_gpu_gb": 1.116,
+    "parameters_total": 250383410,
+    "parameters_trainable": 125173362,
+    "checkpoint": "best.pth",
+    "device": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "training": {
+      "status": "complete",
+      "best_val_wer": 0.165,
+      "epochs_run": 2,
+      "optimizer_steps": 124,
+      "training_time_s": 470.3,
+      "peak_gpu_allocated_gb": 2.959,
+      "parameters": {
+        "frontend": 11182784,
+        "proj_encoder": 393984,
+        "encoder": 170451456,
+        "decoder": 64472505,
+        "ctc": 3882681,
+        "total": 250383410,
+        "trainable": 125173362
+      },
+      "freeze": {
+        "frontend": false,
+        "proj_encoder": false,
+        "encoder_blocks_trainable": 4,
+        "decoder": true,
+        "ctc": true
+      },
+      "train_clips": 2000,
+      "amp": "bf16"
+    }
+  },
+  "wer_absolute_change": -0.6433333333333333,
+  "wer_relative_change": -0.7417371252882399,
+  "cer_absolute_change": -0.48224177256435324,
+  "cer_relative_change": -0.7679335841224543,
+  "loss_curve": [
+    {
+      "step": 20.0,
+      "loss": 22.686275482177734,
+      "lr": 1e-05
+    },
+    {
+      "step": 40.0,
+      "loss": 12.525182723999023,
+      "lr": 9.114919329468283e-06
+    },
+    {
+      "step": 60.0,
+      "loss": 8.744528770446777,
+      "lr": 6.773024435212678e-06
+    },
+    {
+      "step": 80.0,
+      "loss": 5.395339488983154,
+      "lr": 3.803421678562213e-06
+    },
+    {
+      "step": 100.0,
+      "loss": 5.112205505371094,
+      "lr": 1.257446259144494e-06
+    },
+    {
+      "step": 120.0,
+      "loss": 3.753476619720459,
+      "lr": 3.645562950973014e-08
+    }
+  ],
+  "val_curve": [
+    {
+      "epoch": 0.0,
+      "val_loss": 5.502827696800232,
+      "val_wer": 0.23916666666666667
+    },
+    {
+      "epoch": 1.0,
+      "val_loss": 4.1271502923965455,
+      "val_wer": 0.165
+    }
+  ]
+}

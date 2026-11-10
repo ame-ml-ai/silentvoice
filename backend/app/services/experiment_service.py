@@ -26,7 +26,7 @@ def _read_json(path: Path) -> dict[str, Any] | None:
 
 def _record(exp_id: str, kind: str, path: Path, data: dict[str, Any] | None, root: Path,
             training: dict[str, Any] | None = None) -> dict[str, Any]:
-    rel = str(path.relative_to(root.parent)) if path.is_relative_to(root.parent) else str(path)
+    rel = path.relative_to(root.parent).as_posix() if path.is_relative_to(root.parent) else path.as_posix()
     if data is None:
         return {"id": exp_id, "kind": kind, "status": "pending", "path": rel, "training": training}
     params = data.get("parameters", {})

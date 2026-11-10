@@ -1,6 +1,6 @@
 import { NavLink, Outlet } from 'react-router-dom'
 import { useApi } from '../hooks/useApi'
-import { api } from '../services/api'
+import { api, STATIC_DEMO } from '../services/api'
 import { cx, ModelStatePill } from './ui'
 
 const NAV = [
@@ -53,6 +53,15 @@ export default function Layout() {
           {state && <ModelStatePill state={state} compact />}
         </div>
       </header>
+      {STATIC_DEMO && (
+        <div role="note" className="border-b border-ink-700 bg-ink-900">
+          <p className="mx-auto max-w-6xl px-4 py-2 text-xs text-fg-muted sm:px-6">
+            Static demo: research numbers are the recorded pilot run (GRID, 500 unseen-speaker test clips).
+            Live recognition needs the GPU backend:{' '}
+            <a className="underline hover:text-fg" href="https://github.com/ame-ml-ai/silentvoice">run it locally</a>.
+          </p>
+        </div>
+      )}
       <main id="main" className="mx-auto w-full max-w-6xl flex-1 px-4 py-8 sm:px-6 sm:py-10">
         <Outlet />
       </main>
