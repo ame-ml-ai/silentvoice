@@ -1,6 +1,6 @@
 # ECC usage
 
-Everything Claude Code (ECC) **2.2.3**, at `~/.claude/plugins/cache/ecc/ecc/2.2.3`.
+ECC **2.2.3** (agent tooling plugin).
 
 - At the first audit, ECC was **not installed**: no plugin directory and no `python-patterns` skill.
 - It became available during the session.

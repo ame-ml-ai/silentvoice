@@ -40,8 +40,8 @@ verification steps are in `docs/GPU_SETUP_RTX5070.md`.
 
 ## ECC plugin
 
-Not installed at the first audit. Installed during the session as `ecc` 2.2.3
-(`~/.claude/plugins/cache/ecc/ecc/2.2.3`). How it was used is in `ECC_USAGE.md`.
+Not installed at the first audit. Installed during the session as `ecc` 2.2.3.
+How it was used is in `ECC_USAGE.md`.
 
 ## Compatibility findings (all verified on the Mac)
 

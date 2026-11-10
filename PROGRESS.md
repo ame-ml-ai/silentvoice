@@ -65,7 +65,7 @@
 - `ml/utils/env.py`: `peak_rss_gb()` for Windows/macOS/Linux; used by `evaluate.py`.
 - `ml/configs/finetune_grid.yaml`: 300 frames / batch 4 / accum 8 (effective batch 32 unchanged), 4 workers.
 - `scripts/gpu_memory_probe.py`: `--budget-gb` (default 80 % of VRAM) and a printed recommendation.
-- `prepare_dataset` default workers capped at 8; `.claude/launch.json` uses the Windows venv layout;
+- `prepare_dataset` default workers capped at 8; the local dev-server launch config uses the Windows venv layout;
   device/gpu_check messages no longer assume an RTX 5070.
 - New guide: [docs/GPU_SETUP_RTX4060_LAPTOP.md](docs/GPU_SETUP_RTX4060_LAPTOP.md).
 
