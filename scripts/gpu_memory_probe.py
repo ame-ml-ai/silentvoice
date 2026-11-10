@@ -6,7 +6,8 @@
 Runs forward + backward + AdamW step on random input shaped like real batches
 (clips of --clip-frames frames) with the real 250M-parameter model and the chosen
 freezing strategy. Writes experiments/hardware/memory_probe.json. Use the largest
-budget that stays below ~10.5 GB as max_frames_per_batch in the fine-tune config.
+budget whose peak stays below --budget-gb (default: 80% of VRAM, ~6.5 GB on an 8 GB
+RTX 4060 Laptop) as max_frames_per_batch in the fine-tune config; the script prints it.
 """
 
 from __future__ import annotations
@@ -59,6 +60,7 @@ def main() -> int:
     p.add_argument("--amp", default="bf16", choices=["bf16", "fp16", "none"])
     p.add_argument("--clip-frames", type=int, default=75, help="75 = one GRID clip (3 s)")
     p.add_argument("--frames", type=int, nargs="+", default=[150, 300, 600, 900, 1200])
+    p.add_argument("--budget-gb", type=float, help="peak-VRAM budget for the recommendation (default 80%% of VRAM)")
     p.add_argument("--out", type=Path, default=Path("experiments/hardware/memory_probe.json"))
     args = p.parse_args()
 
@@ -73,7 +75,17 @@ def main() -> int:
         rows.append(row)
         if not row["ok"]:
             break
-    out = {"device": describe_device(device), "strategy": args.strategy, "freeze": freeze, "amp": args.amp,
+    total_gb = torch.cuda.get_device_properties(device).total_memory / 1024**3
+    budget = args.budget_gb or round(0.8 * total_gb, 2)
+    fitting = [r for r in rows if r["ok"] and r["peak_gb"] <= budget]
+    best = max(fitting, key=lambda r: r["frames_per_batch"]) if fitting else None
+    recommendation = None if best is None else {
+        "budget_gb": budget, "max_frames_per_batch": best["frames_per_batch"], "max_batch_size": best["batch_size"],
+        "grad_accum_steps_for_32_clips": max(1, round(32 / best["batch_size"])),
+    }
+    print(f"Recommendation (peak <= {budget} GB): {recommendation}" if recommendation
+          else f"No tested budget fits in {budget} GB: use --strategy decoder_only or smaller --frames.")
+    out = {"device": describe_device(device), "strategy": args.strategy, "recommendation": recommendation, "freeze": freeze, "amp": args.amp,
            "parameters": count_parameters(model), "clip_frames": args.clip_frames, "rows": rows,
            "note": "random inputs; real batches add data-loader memory on the host, not the GPU"}
     args.out.parent.mkdir(parents=True, exist_ok=True)

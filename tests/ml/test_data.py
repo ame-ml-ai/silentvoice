@@ -7,7 +7,9 @@ from ml.data.dataset import FrameBudgetBatchSampler, collate_pad
 from ml.data.manifest import (
     ManifestEntry, SplitLeakageError, assert_no_leakage, read_manifest, validate_splits, write_manifest,
 )
-from ml.data.sources import load_split_config, parse_grid_alignment, parse_lrs3_text
+from ml.data.sources import (
+    iter_grid, load_split_config, parse_grid_alignment, parse_grid_filename, parse_lrs3_text,
+)
 
 
 def entry(i, split, speaker, frames=75):
@@ -67,6 +69,26 @@ def test_parse_grid_alignment(tmp_path):
     f.write_text("0 23750 sil\n23750 29500 bin\n29500 34000 blue\n34000 35500 at\n"
                  "35500 41000 f\n41000 47250 two\n47250 53000 now\n53000 74500 sil\n")
     assert parse_grid_alignment(f) == "BIN BLUE AT F TWO NOW"
+
+
+def test_parse_grid_filename():
+    assert parse_grid_filename("bbaf2n") == "BIN BLUE AT F TWO NOW"
+    assert parse_grid_filename("swwzza") == "SET WHITE WITH Z ZERO AGAIN"
+    for bad in ("bbaf2", "xbaf2n", "bbaw2n"):  # wrong length, unknown command, W is not a GRID letter
+        with pytest.raises(ValueError):
+            parse_grid_filename(bad)
+
+
+def test_iter_grid_uses_file_name_when_alignment_missing(tmp_path):
+    (tmp_path / "s5").mkdir()
+    (tmp_path / "s5" / "bbae8n.mpg").write_bytes(b"")
+    (tmp_path / "s5" / "Thumbs.db").write_bytes(b"")
+    (tmp_path / "alignments" / "s5").mkdir(parents=True)
+    (tmp_path / "alignments" / "s5" / "bbae8s.align").write_text("0 1 sil\n1 2 bin\n2 3 blue\n")
+    cfg = tmp_path / "split.yaml"
+    cfg.write_text("train: [s5]\nval: []\ntest: []\n")
+    clips = list(iter_grid(tmp_path, cfg))
+    assert [(c.id, c.text, c.split) for c in clips] == [("grid/s5/bbae8n", "BIN BLUE AT E EIGHT NOW", "train")]
 
 
 def test_parse_lrs3_text(tmp_path):

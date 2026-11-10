@@ -76,7 +76,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--lrs3-val-fraction", type=float, default=0.02)
     parser.add_argument("--speakers", help="comma-separated subset of speakers (GRID)")
     parser.add_argument("--limit", type=int, help="process only the first N clips (smoke tests)")
-    parser.add_argument("--workers", type=int, default=max(1, mp.cpu_count() - 2))
+    parser.add_argument("--workers", type=int, default=max(1, min(8, mp.cpu_count() - 2)))
     args = parser.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 

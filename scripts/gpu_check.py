@@ -1,10 +1,10 @@
-"""Verify the CUDA environment on the RTX 5070 machine.
+"""Verify the CUDA environment on the training machine (RTX 4060 Laptop / RTX 5070 / any CUDA GPU).
 
     python scripts/gpu_check.py
 
 Checks: CUDA visible to PyTorch, GPU name and VRAM, compute capability vs. the
-architectures this PyTorch build was compiled for (RTX 50-series = sm_120 needs a
-CUDA 12.8+ build), bf16 support, and real GPU kernels (matmul + bf16 Conv3d).
+architectures this PyTorch build was compiled for (RTX 40 laptop = sm_89, any CUDA 12.x build;
+RTX 50-series = sm_120 needs a CUDA 12.8+ build), bf16 support, and real GPU kernels (matmul + bf16 Conv3d).
 Exits non-zero on any failure. Never falls back to CPU.
 """
 
@@ -45,7 +45,7 @@ def main() -> int:
         report["kernel_test"] = f"FAILED: {exc}"
     print(json.dumps(report, indent=2))
     if report["kernel_test"] != "ok":
-        print("\nGPU check FAILED. Install a PyTorch build for CUDA 12.8+ (see docs/GPU_SETUP_RTX5070.md).")
+        print("\nGPU check FAILED. Install a CUDA build of PyTorch (see docs/GPU_SETUP_RTX4060_LAPTOP.md).")
         return 1
     print("\nGPU check passed.")
     return 0

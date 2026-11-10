@@ -1,0 +1,74 @@
+{
+  "device": {
+    "type": "cuda",
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "cuda_runtime": "13.2",
+    "bf16_supported": true
+  },
+  "strategy": "encoder_top_k",
+  "recommendation": {
+    "budget_gb": 6.4,
+    "max_frames_per_batch": 600,
+    "max_batch_size": 8,
+    "grad_accum_steps_for_32_clips": 4
+  },
+  "freeze": {
+    "frontend": false,
+    "proj_encoder": false,
+    "encoder_blocks_trainable": 4,
+    "decoder": true,
+    "ctc": true
+  },
+  "amp": "bf16",
+  "parameters": {
+    "frontend": 11182784,
+    "proj_encoder": 393984,
+    "encoder": 170451456,
+    "decoder": 64472505,
+    "ctc": 3882681,
+    "total": 250383410,
+    "trainable": 125173362
+  },
+  "clip_frames": 75,
+  "rows": [
+    {
+      "frames_per_batch": 150,
+      "batch_size": 2,
+      "ok": true,
+      "peak_gb": 2.843
+    },
+    {
+      "frames_per_batch": 225,
+      "batch_size": 3,
+      "ok": true,
+      "peak_gb": 2.85
+    },
+    {
+      "frames_per_batch": 300,
+      "batch_size": 4,
+      "ok": true,
+      "peak_gb": 2.862
+    },
+    {
+      "frames_per_batch": 375,
+      "batch_size": 5,
+      "ok": true,
+      "peak_gb": 2.869
+    },
+    {
+      "frames_per_batch": 450,
+      "batch_size": 6,
+      "ok": true,
+      "peak_gb": 2.877
+    },
+    {
+      "frames_per_batch": 600,
+      "batch_size": 8,
+      "ok": true,
+      "peak_gb": 2.88
+    }
+  ],
+  "note": "random inputs; real batches add data-loader memory on the host, not the GPU"
+}

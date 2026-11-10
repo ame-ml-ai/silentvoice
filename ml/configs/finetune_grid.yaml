@@ -21,13 +21,16 @@ optim:
   warmup_steps: 200
   grad_clip: 10.0             # Auto-AVSR Trainer default
 
+# RTX 4060 Laptop (8 GB): scripts/gpu_memory_probe.py measured a peak of 2.88 GB at 600 frames
+# (encoder_top_k k=4, bf16; experiments/hardware/memory_probe.json), so the original setting fits.
+# Effective batch: 8 clips x 4 accumulation steps = 32 clips.
 train:
   max_epochs: 10
-  max_frames_per_batch: 600   # GRID clips are 75 frames -> up to 8 clips per micro-batch
+  max_frames_per_batch: 600   # GRID clips are 75 frames -> 8 clips per micro-batch
   max_batch_size: 8
   grad_accum_steps: 4
-  amp_dtype: bf16             # bf16 on RTX 50-series; "fp16" uses GradScaler; "none" disables
-  num_workers: 6
+  amp_dtype: bf16             # Ada (RTX 40) supports bf16; "fp16" uses GradScaler; "none" disables
+  num_workers: 4              # Windows spawns a full Python+torch process per worker (~0.5 GB RAM each)
   early_stopping_patience: 3  # validation every epoch; best.pth = lowest validation WER (never test)
   log_every_steps: 20
   val_max_samples: 400        # validation WER on a fixed, seeded subset of val speakers

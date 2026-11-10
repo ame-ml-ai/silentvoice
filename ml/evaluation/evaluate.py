@@ -16,7 +16,6 @@ from __future__ import annotations
 import argparse
 import json
 import logging
-import resource
 import shlex
 import statistics
 import sys
@@ -33,7 +32,7 @@ from ml.inference.model import DecodeConfig, VSRModel
 from ml.preprocessing.transforms import eval_transform, frames_to_tensor
 from ml.preprocessing.video_io import read_video_rgb
 from ml.utils.device import describe_device, resolve_device
-from ml.utils.env import environment_record, md5_file, set_seed
+from ml.utils.env import environment_record, md5_file, peak_rss_gb, set_seed
 
 log = logging.getLogger("evaluate")
 
@@ -105,7 +104,7 @@ def run(cfg: dict[str, Any], limit: int | None, command: str) -> dict[str, Any]:
         },
         "memory": {
             "peak_gpu_allocated_gb": round(torch.cuda.max_memory_allocated() / 1024**3, 3) if device.type == "cuda" else None,
-            "peak_process_rss_gb": round(resource.getrusage(resource.RUSAGE_SELF).ru_maxrss / (1024**3 if sys.platform == "darwin" else 1024**2), 3),
+            "peak_process_rss_gb": peak_rss_gb(),
         },
         "parameters": model.info()["parameters"],
         "checkpoint": {"name": ckpt.name, "md5": md5_file(ckpt)},

@@ -34,6 +34,38 @@ def md5_file(path: str | Path, chunk_size: int = 1 << 20) -> str:
     return digest.hexdigest()
 
 
+def peak_rss_gb() -> float | None:
+    """Peak resident memory of this process in GB (Linux, macOS and Windows)."""
+    import sys
+
+    try:
+        if sys.platform == "win32":
+            import ctypes
+            from ctypes import wintypes
+
+            class _Counters(ctypes.Structure):
+                _fields_ = [("cb", wintypes.DWORD), ("PageFaultCount", wintypes.DWORD),
+                            ("PeakWorkingSetSize", ctypes.c_size_t), ("WorkingSetSize", ctypes.c_size_t),
+                            ("QuotaPeakPagedPoolUsage", ctypes.c_size_t), ("QuotaPagedPoolUsage", ctypes.c_size_t),
+                            ("QuotaPeakNonPagedPoolUsage", ctypes.c_size_t), ("QuotaNonPagedPoolUsage", ctypes.c_size_t),
+                            ("PagefileUsage", ctypes.c_size_t), ("PeakPagefileUsage", ctypes.c_size_t)]
+
+            counters = _Counters()
+            counters.cb = ctypes.sizeof(counters)
+            psapi, kernel32 = ctypes.WinDLL("psapi"), ctypes.WinDLL("kernel32")
+            kernel32.GetCurrentProcess.restype = wintypes.HANDLE
+            psapi.GetProcessMemoryInfo.argtypes = [wintypes.HANDLE, ctypes.POINTER(_Counters), wintypes.DWORD]
+            if not psapi.GetProcessMemoryInfo(kernel32.GetCurrentProcess(), ctypes.byref(counters), counters.cb):
+                return None
+            return round(counters.PeakWorkingSetSize / 1024**3, 3)
+        import resource
+
+        rss = resource.getrusage(resource.RUSAGE_SELF).ru_maxrss  # bytes on macOS, KiB on Linux
+        return round(rss / (1024**3 if sys.platform == "darwin" else 1024**2), 3)
+    except (OSError, AttributeError, ImportError):
+        return None
+
+
 def git_revision() -> str | None:
     try:
         out = subprocess.run(

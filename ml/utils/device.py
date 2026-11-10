@@ -41,7 +41,7 @@ def resolve_device(requested: DeviceName | str = "auto") -> torch.device:
         if not cuda_available():
             raise DeviceUnavailableError(
                 "CUDA was requested but torch.cuda.is_available() is False. "
-                "GPU work must run on the RTX 5070 machine (see docs/GPU_SETUP_RTX5070.md)."
+                "Check the NVIDIA driver and that a CUDA build of PyTorch is installed (see docs/GPU_SETUP_RTX4060_LAPTOP.md)."
             )
         return torch.device(requested)
     if requested == "mps":

@@ -11,7 +11,7 @@ __pycache__/
 !.env.example
 
 # Datasets and model weights: never committed (licensing + size)
-data/
+/data/
 checkpoints/
 *.pth
 *.pt
