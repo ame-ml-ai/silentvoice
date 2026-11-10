@@ -1,0 +1,101 @@
+{
+  "status": "complete",
+  "experiment": "pilot_finetuning",
+  "split": "test",
+  "num_samples": 500,
+  "excluded_by_preprocessing": 0,
+  "wer": 0.224,
+  "cer": 0.14573150863473444,
+  "word_counts": {
+    "substitutions": 509,
+    "deletions": 155,
+    "insertions": 8,
+    "hits": 2336,
+    "reference_length": 3000,
+    "errors": 672,
+    "rate": 0.224
+  },
+  "char_counts": {
+    "substitutions": 805,
+    "deletions": 614,
+    "insertions": 370,
+    "hits": 10857,
+    "reference_length": 12276,
+    "errors": 1789,
+    "rate": 0.14573150863473444
+  },
+  "latency": {
+    "mean_s": 1.1192531964000372,
+    "median_s": 1.1471601000012015,
+    "p95_s": 1.4384196000028169,
+    "real_time_factor": 0.3730943479826253,
+    "measured_on": "model forward + beam search only (excludes decode and mouth cropping)"
+  },
+  "memory": {
+    "peak_gpu_allocated_gb": 1.116,
+    "peak_process_rss_gb": 2.649
+  },
+  "parameters": {
+    "frontend": 11182784,
+    "proj_encoder": 393984,
+    "encoder": 170451456,
+    "decoder": 64472505,
+    "ctc": 3882681,
+    "total": 250383410,
+    "trainable": 250383410
+  },
+  "checkpoint": {
+    "name": "best.pth",
+    "md5": "1b8bf177d5b61f7771240ed5ec376973"
+  },
+  "decode": {
+    "beam_size": 40,
+    "ctc_weight": 0.1,
+    "length_penalty": 0.0
+  },
+  "device": {
+    "type": "cuda",
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "cuda_runtime": "13.2",
+    "bf16_supported": true
+  },
+  "wall_clock_s": 585.3,
+  "seed": 42,
+  "config": {
+    "experiment": "pilot_finetuning",
+    "output_dir": "experiments/pilot/finetuning",
+    "seed": 42,
+    "checkpoint": "experiments/pilot/finetuning/checkpoints/best.pth",
+    "manifest": "data/processed/grid/manifest_pilot.jsonl",
+    "data_root": "data/processed/grid/videos",
+    "split": "test",
+    "device": "cuda",
+    "decode": {
+      "beam_size": 40,
+      "ctc_weight": 0.1,
+      "length_penalty": 0.0
+    }
+  },
+  "environment": {
+    "timestamp_utc": "2026-11-10T12:48:17+00:00",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "software": {
+      "python": "3.11.9",
+      "torch": "2.15.0+cu132",
+      "cuda_build": "13.2",
+      "cudnn": "92600",
+      "numpy": "2.2.6",
+      "auto_avsr_commit": "182b62837773ab01052d4ac21ef1d2203ea7d267",
+      "silentvoice_commit": "14fc62dc55fdc44de38ec272a0c4cd3e45158ac5",
+      "cv2": "5.0.0",
+      "mediapipe": "0.10.14",
+      "jiwer": null,
+      "sentencepiece": "0.2.3",
+      "torchvision": "0.29.2+cu132"
+    }
+  },
+  "command": "'C:\\Users\\temir\\Projects\\silentvoice\\.venv\\Scripts\\python.exe' -m ml.evaluation.evaluate --config ml/configs/pilot/finetuned_eval.yaml"
+}

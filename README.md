@@ -5,10 +5,10 @@ of a speaker's mouth, with no audio, using the pretrained Auto-AVSR visual speec
 recognition model. It studies whether partial fine-tuning on a new domain (the GRID
 corpus) improves recognition on unseen speakers, within one 12 GB GPU.
 
-> **Status (2026-11-10):** the full software stack is built and tested on a Mac (CPU).
-> No experiment has been run yet. Baseline evaluation and fine-tuning are scheduled for the
-> RTX 5070 machine, so every metric in the app currently shows **Pending**. Next step:
-> [CONTINUE_ON_RTX5070.md](CONTINUE_ON_RTX5070.md).
+> **Status (2026-11-10):** the stack runs end to end on an RTX 4060 Laptop (Windows).
+> **Pilot result:** partial fine-tuning on 2 GRID speakers cut WER on unseen speakers from
+> **0.867 to 0.224** (500 test clips; see [Research results](#research-results)). The full
+> GRID run is next: [docs/GPU_SETUP_RTX4060_LAPTOP.md](docs/GPU_SETUP_RTX4060_LAPTOP.md).
 
 ## Features
 
@@ -146,17 +146,34 @@ What the tests cover:
 
 ## Research results
 
-| | WER | CER |
-|---|---|---|
-| Baseline (Experiment A) | **pending** | **pending** |
-| Fine-tuned (Experiment B) | **pending** | **pending** |
+Full protocol (all GRID talkers): **pending**.
 
-Numbers will be filled from `experiments/*/results.json` after the GPU runs. Design and
-protocol: [EXPERIMENT_DESIGN.md](EXPERIMENT_DESIGN.md).
+### Pilot results (2026-11-10, RTX 4060 Laptop) — subset, not the final protocol
+
+Same checkpoint, same decoding (beam 40, CTC weight 0.1, no LM), same **500 test clips** from the
+unseen test speakers s1 + s2 (250 each, seed 0; ids in `experiments/pilot/test_ids.txt`).
+Fine-tuning used only GRID **s5 + s6** for training (2,000 clips) and s3 + s4 for validation,
+2 epochs (124 optimizer steps, 7.8 min), `encoder_top_k` (top 4 Conformer blocks + decoder +
+CTC head = 125.2M of 250.4M parameters trainable), bf16, lr 1e-5, warmup 20.
+
+| Model | WER | CER | Source |
+|---|---|---|---|
+| Pretrained Auto-AVSR (baseline) | **0.867** | **0.628** | `experiments/pilot/baseline/results.json` |
+| Fine-tuned, 2 epochs on 2 speakers | **0.224** | **0.146** | `experiments/pilot/finetuning/results.json` |
+
+Validation WER (200 clips, beam 10): 0.239 after epoch 1, 0.165 after epoch 2. Peak GPU memory:
+2.96 GB training, 1.3 GB inference. Latency figures in the result files are not representative:
+both evaluations shared the GPU with each other and with training.
+
+Caveats: 4 of the 33 talkers, one seed, 500 test clips. GRID's 51-word grammar makes this gain
+far easier than on open speech. The full protocol (27 training talkers, all ~4k test clips of
+s1, s2, s20, s22) is the next run.
+
+Design and protocol: [EXPERIMENT_DESIGN.md](EXPERIMENT_DESIGN.md).
 
 ## Limitations
 
-- No result exists yet; all performance claims are pending.
+- Only a pilot result exists (2 training speakers, 500 test clips); the full-protocol numbers are pending.
 - GRID has a tiny fixed vocabulary, so gains there do not transfer to open-vocabulary speech. LRS3 needs authorised access ([DATASET_GUIDE.md](DATASET_GUIDE.md)).
 - MediaPipe replaces the RetinaFace detector used for Auto-AVSR's official LRS3 crops.
 - The live demo on new faces, poses and lighting will be less accurate than test-set numbers.

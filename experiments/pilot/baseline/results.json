@@ -1,0 +1,101 @@
+{
+  "status": "complete",
+  "experiment": "pilot_baseline",
+  "split": "test",
+  "num_samples": 500,
+  "excluded_by_preprocessing": 0,
+  "wer": 0.8673333333333333,
+  "cer": 0.6279732811990877,
+  "word_counts": {
+    "substitutions": 2054,
+    "deletions": 396,
+    "insertions": 152,
+    "hits": 550,
+    "reference_length": 3000,
+    "errors": 2602,
+    "rate": 0.8673333333333333
+  },
+  "char_counts": {
+    "substitutions": 3774,
+    "deletions": 1596,
+    "insertions": 2339,
+    "hits": 6906,
+    "reference_length": 12276,
+    "errors": 7709,
+    "rate": 0.6279732811990877
+  },
+  "latency": {
+    "mean_s": 1.7031615191998717,
+    "median_s": 1.650856649997877,
+    "p95_s": 2.689031600006274,
+    "real_time_factor": 0.5677356460171843,
+    "measured_on": "model forward + beam search only (excludes decode and mouth cropping)"
+  },
+  "memory": {
+    "peak_gpu_allocated_gb": 1.257,
+    "peak_process_rss_gb": 2.648
+  },
+  "parameters": {
+    "frontend": 11182784,
+    "proj_encoder": 393984,
+    "encoder": 170451456,
+    "decoder": 64472505,
+    "ctc": 3882681,
+    "total": 250383410,
+    "trainable": 250383410
+  },
+  "checkpoint": {
+    "name": "vsr_trlrs3vox2_base.pth",
+    "md5": "774a6305c0b57ae0cffc97b58b68c3bf"
+  },
+  "decode": {
+    "beam_size": 40,
+    "ctc_weight": 0.1,
+    "length_penalty": 0.0
+  },
+  "device": {
+    "type": "cuda",
+    "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+    "total_memory_gb": 8.0,
+    "capability": "8.9",
+    "cuda_runtime": "13.2",
+    "bf16_supported": true
+  },
+  "wall_clock_s": 874.1,
+  "seed": 42,
+  "config": {
+    "experiment": "pilot_baseline",
+    "output_dir": "experiments/pilot/baseline",
+    "seed": 42,
+    "checkpoint": "checkpoints/vsr_trlrs3vox2_base.pth",
+    "manifest": "data/processed/grid/manifest_pilot.jsonl",
+    "data_root": "data/processed/grid/videos",
+    "split": "test",
+    "device": "cuda",
+    "decode": {
+      "beam_size": 40,
+      "ctc_weight": 0.1,
+      "length_penalty": 0.0
+    }
+  },
+  "environment": {
+    "timestamp_utc": "2026-11-10T12:44:57+00:00",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "machine": "AMD64",
+    "software": {
+      "python": "3.11.9",
+      "torch": "2.15.0+cu132",
+      "cuda_build": "13.2",
+      "cudnn": "92600",
+      "numpy": "2.2.6",
+      "auto_avsr_commit": "182b62837773ab01052d4ac21ef1d2203ea7d267",
+      "silentvoice_commit": "14fc62dc55fdc44de38ec272a0c4cd3e45158ac5",
+      "cv2": "5.0.0",
+      "mediapipe": "0.10.14",
+      "jiwer": null,
+      "sentencepiece": "0.2.3",
+      "torchvision": "0.29.2+cu132"
+    }
+  },
+  "command": "'C:\\Users\\temir\\Projects\\silentvoice\\.venv\\Scripts\\python.exe' -m ml.evaluation.evaluate --config ml/configs/pilot/baseline.yaml"
+}

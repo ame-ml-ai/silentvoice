@@ -124,6 +124,14 @@ python -m ml.evaluation.evaluate --config ml/configs/finetuned_grid_eval.yaml
 Commit the result files after each experiment (see CONTINUE_ON_RTX5070.md §4–6 for what is
 committed). `last.pth` is written once per epoch, so an interrupted run loses at most one epoch.
 
+### Watching progress
+
+```powershell
+python scripts/progress.py --watch                                   # download, preprocessing, training + ETA
+python -m ml.evaluation.evaluate --config ml/configs/baseline_grid.yaml *> eval_a.log   # log an evaluation...
+python scripts/progress.py --watch --eval-log eval_a.log             # ...and follow it
+```
+
 ## 8. Demo with the GPU model
 
 ```powershell

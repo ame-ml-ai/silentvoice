@@ -1,0 +1,500 @@
+{"id": "grid/s1/bbaf3s", "reference": "BIN BLUE AT F THREE SOON", "hypothesis": "BI P R FREE SOON", "seconds": 1.9509}
+{"id": "grid/s1/bbaz6p", "reference": "BIN BLUE AT Z SIX PLEASE", "hypothesis": "BIN BLUE AT T SIX PLEASE", "seconds": 1.2108}
+{"id": "grid/s1/bbbf6n", "reference": "BIN BLUE BY F SIX NOW", "hypothesis": "BIN BLUE BY F SIX", "seconds": 1.0604}
+{"id": "grid/s1/bbbm3a", "reference": "BIN BLUE BY M THREE AGAIN", "hypothesis": "BIN BLUE BY BAM THREE AGAIN", "seconds": 1.1491}
+{"id": "grid/s1/bbbmzn", "reference": "BIN BLUE BY M ZERO NOW", "hypothesis": "BIN BLUE BY M ZERO NOW", "seconds": 1.0848}
+{"id": "grid/s1/bbbs7a", "reference": "BIN BLUE BY S SEVEN AGAIN", "hypothesis": "BIN BLUE BY S SEVEN AGAIN", "seconds": 1.0963}
+{"id": "grid/s1/bbifzp", "reference": "BIN BLUE IN F ZERO PLEASE", "hypothesis": "BIN BLUE F ZERO PLEASE", "seconds": 1.113}
+{"id": "grid/s1/bbil5a", "reference": "BIN BLUE IN L FIVE AGAIN", "hypothesis": "BIN BLUE IN OUR FIVE AGAIN", "seconds": 1.1253}
+{"id": "grid/s1/bbir7s", "reference": "BIN BLUE IN R SEVEN SOON", "hypothesis": "BIN BLUE AT SEVEN SOON", "seconds": 0.9911}
+{"id": "grid/s1/bbir8p", "reference": "BIN BLUE IN R EIGHT PLEASE", "hypothesis": "BIN BLUE IN R EIGHT PLEASE", "seconds": 1.3616}
+{"id": "grid/s1/bbir9a", "reference": "BIN BLUE IN R NINE AGAIN", "hypothesis": "BIN BLUE AT I AGAIN", "seconds": 1.2682}
+{"id": "grid/s1/bbwg1s", "reference": "BIN BLUE WITH G ONE SOON", "hypothesis": "BIN BOO WITH D ONE SOON", "seconds": 1.3862}
+{"id": "grid/s1/bgah1s", "reference": "BIN GREEN AT H ONE SOON", "hypothesis": "BIN GREEN AT E ONE SOON", "seconds": 1.1967}
+{"id": "grid/s1/bgah2p", "reference": "BIN GREEN AT H TWO PLEASE", "hypothesis": "BIN WITH H TWO PLEASE", "seconds": 1.0532}
+{"id": "grid/s1/bgah3a", "reference": "BIN GREEN AT H THREE AGAIN", "hypothesis": "BIN GREEN K THREE AGAIN", "seconds": 1.0914}
+{"id": "grid/s1/bgat8n", "reference": "BIN GREEN AT T EIGHT NOW", "hypothesis": "B GREEN AT NINE NOW", "seconds": 1.1285}
+{"id": "grid/s1/bgat9s", "reference": "BIN GREEN AT T NINE SOON", "hypothesis": "BIN WITH D NINE SOON", "seconds": 1.1614}
+{"id": "grid/s1/bgauzp", "reference": "BIN GREEN AT U ZERO PLEASE", "hypothesis": "BIN GREEN AT TWO ZERO PLEASE", "seconds": 1.1957}
+{"id": "grid/s1/bgbb2p", "reference": "BIN GREEN BY B TWO PLEASE", "hypothesis": "BIN WRITTEN BY B TWO PLEASE", "seconds": 0.629}
+{"id": "grid/s1/bgbn8n", "reference": "BIN GREEN BY N EIGHT NOW", "hypothesis": "BIN GREEN BY N EIGHT NOW", "seconds": 1.2853}
+{"id": "grid/s1/bgbo1a", "reference": "BIN GREEN BY O ONE AGAIN", "hypothesis": "BIN GREEN BY O ONE AGAIN", "seconds": 1.1876}
+{"id": "grid/s1/bgia3s", "reference": "BIN GREEN IN A THREE SOON", "hypothesis": "BIN GREEN AT THREE SOON", "seconds": 1.1344}
+{"id": "grid/s1/bgia5a", "reference": "BIN GREEN IN A FIVE AGAIN", "hypothesis": "B THREE A FIVE AGAIN", "seconds": 1.1308}
+{"id": "grid/s1/bgig7s", "reference": "BIN GREEN IN G SEVEN SOON", "hypothesis": "BIN GREEN AT G SEVEN SOON", "seconds": 1.0975}
+{"id": "grid/s1/bgig9a", "reference": "BIN GREEN IN G NINE AGAIN", "hypothesis": "BIN GREEN IN G NINE AGAIN", "seconds": 1.3087}
+{"id": "grid/s1/bginzn", "reference": "BIN GREEN IN N ZERO NOW", "hypothesis": "BIN GREEN AT ZERO NOW", "seconds": 1.1041}
+{"id": "grid/s1/bgit5s", "reference": "BIN GREEN IN T FIVE SOON", "hypothesis": "B D FIVE SOON", "seconds": 1.1244}
+{"id": "grid/s1/bgwh9s", "reference": "BIN GREEN WITH H NINE SOON", "hypothesis": "BIN THREE WITH H NINE SOON", "seconds": 1.1108}
+{"id": "grid/s1/bgwu6n", "reference": "BIN GREEN WITH U SIX NOW", "hypothesis": "BIN GREEN WITH FEW SIX NOW", "seconds": 1.4796}
+{"id": "grid/s1/bgwu7s", "reference": "BIN GREEN WITH U SEVEN SOON", "hypothesis": "BIN GREEN WITH U SEVEN SOON", "seconds": 1.3109}
+{"id": "grid/s1/braf8n", "reference": "BIN RED AT F EIGHT NOW", "hypothesis": "BIN ONE F EIGHT NOW", "seconds": 0.9682}
+{"id": "grid/s1/bram2n", "reference": "BIN RED AT M TWO NOW", "hypothesis": "BIN WHITE M TWO NOW", "seconds": 1.1004}
+{"id": "grid/s1/bram3s", "reference": "BIN RED AT M THREE SOON", "hypothesis": "MID WHITE M TWO", "seconds": 1.0731}
+{"id": "grid/s1/bras9a", "reference": "BIN RED AT S NINE AGAIN", "hypothesis": "BIN WHITE AT EIGHT NINE AGAIN", "seconds": 1.2567}
+{"id": "grid/s1/brbm8p", "reference": "BIN RED BY M EIGHT PLEASE", "hypothesis": "BIN RED BY EIGHT PLEASE", "seconds": 1.0831}
+{"id": "grid/s1/brbm9a", "reference": "BIN RED BY M NINE AGAIN", "hypothesis": "BIN RED BY M NINE AGAIN", "seconds": 1.2775}
+{"id": "grid/s1/brbt2p", "reference": "BIN RED BY T TWO PLEASE", "hypothesis": "BIN RED BY D TWO PLEASE", "seconds": 1.117}
+{"id": "grid/s1/brif5s", "reference": "BIN RED IN F FIVE SOON", "hypothesis": "BIN RED AT FIVE SOON", "seconds": 1.1537}
+{"id": "grid/s1/brif6p", "reference": "BIN RED IN F SIX PLEASE", "hypothesis": "BIN RED F SIX PLEASE", "seconds": 1.1189}
+{"id": "grid/s1/bril9s", "reference": "BIN RED IN L NINE SOON", "hypothesis": "BEAT RED IN L NINE SOON", "seconds": 1.3407}
+{"id": "grid/s1/brwn3a", "reference": "BIN RED WITH N THREE AGAIN", "hypothesis": "BIN RED WITH EIGHT THREE", "seconds": 1.4933}
+{"id": "grid/s1/bwag4n", "reference": "BIN WHITE AT G FOUR NOW", "hypothesis": "BIN WHITE AT G FOUR NOW", "seconds": 1.204}
+{"id": "grid/s1/bwam8n", "reference": "BIN WHITE AT M EIGHT NOW", "hypothesis": "BIN WHITE AT MEN NOW", "seconds": 1.3028}
+{"id": "grid/s1/bwam9s", "reference": "BIN WHITE AT M NINE SOON", "hypothesis": "BIN WHITE M NINE SOON", "seconds": 1.0543}
+{"id": "grid/s1/bwanzp", "reference": "BIN WHITE AT N ZERO PLEASE", "hypothesis": "BIN WHITE AT ZERO PLEASE", "seconds": 1.1933}
+{"id": "grid/s1/bwat3s", "reference": "BIN WHITE AT T THREE SOON", "hypothesis": "BIN ONE G THREE SOON", "seconds": 0.9955}
+{"id": "grid/s1/bwat4p", "reference": "BIN WHITE AT T FOUR PLEASE", "hypothesis": "BIN RED G FOUR PLEASE", "seconds": 1.0559}
+{"id": "grid/s1/bwat5a", "reference": "BIN WHITE AT T FIVE AGAIN", "hypothesis": "BIN WHITE AT G FIVE AGAIN", "seconds": 1.1738}
+{"id": "grid/s1/bwba7a", "reference": "BIN WHITE BY A SEVEN AGAIN", "hypothesis": "BIN WHITE PLACE EVERY YEAR", "seconds": 1.031}
+{"id": "grid/s1/bwbn2n", "reference": "BIN WHITE BY N TWO NOW", "hypothesis": "BIN RIGHT BY N TWO NOW", "seconds": 1.2104}
+{"id": "grid/s1/bwbt6n", "reference": "BIN WHITE BY T SIX NOW", "hypothesis": "BIN WHITE BY D SIX NOW", "seconds": 1.1447}
+{"id": "grid/s1/bwbt7s", "reference": "BIN WHITE BY T SEVEN SOON", "hypothesis": "BIN WHITE BY T SEVEN SOON", "seconds": 1.2524}
+{"id": "grid/s1/bwigzn", "reference": "BIN WHITE IN G ZERO NOW", "hypothesis": "BIN WHITE AT G ZERO NOW", "seconds": 1.1574}
+{"id": "grid/s1/bwis8n", "reference": "BIN WHITE IN S EIGHT NOW", "hypothesis": "BIN WHITE AT EIGHT NOW", "seconds": 1.188}
+{"id": "grid/s1/bwitzp", "reference": "BIN WHITE IN T ZERO PLEASE", "hypothesis": "BIN WHITE IN T ZERO PLEASE", "seconds": 1.1728}
+{"id": "grid/s1/bwwa8n", "reference": "BIN WHITE WITH A EIGHT NOW", "hypothesis": "BIN WHITE WITH A NOW", "seconds": 1.2486}
+{"id": "grid/s1/bwwa9s", "reference": "BIN WHITE WITH A NINE SOON", "hypothesis": "BIN WHITE WITH L NINE SOON", "seconds": 1.2454}
+{"id": "grid/s1/bwwb1a", "reference": "BIN WHITE WITH B ONE AGAIN", "hypothesis": "BIN WHITE WITH B ONE AGAIN", "seconds": 1.1814}
+{"id": "grid/s1/bwwbzp", "reference": "BIN WHITE WITH B ZERO PLEASE", "hypothesis": "BIN WHITE WITH B ZERO PLEASE", "seconds": 1.272}
+{"id": "grid/s1/lbad7s", "reference": "LAY BLUE AT D SEVEN SOON", "hypothesis": "LAY BLUE ON D SEVEN SOON", "seconds": 1.1774}
+{"id": "grid/s1/lbak1s", "reference": "LAY BLUE AT K ONE SOON", "hypothesis": "KEEP YOUR K ONE SOON", "seconds": 1.169}
+{"id": "grid/s1/lbakzn", "reference": "LAY BLUE AT K ZERO NOW", "hypothesis": "LAY BLUE AT H ZERO NOW", "seconds": 1.2493}
+{"id": "grid/s1/lbaq4n", "reference": "LAY BLUE AT Q FOUR NOW", "hypothesis": "LAY BLUE AT TWO FOUR NOW", "seconds": 1.287}
+{"id": "grid/s1/lbaq5s", "reference": "LAY BLUE AT Q FIVE SOON", "hypothesis": "LAY BLUE AT Q FIVE SOON", "seconds": 1.5577}
+{"id": "grid/s1/lbbe1s", "reference": "LAY BLUE BY E ONE SOON", "hypothesis": "LAY BLUE BY E ONE SOON", "seconds": 1.1504}
+{"id": "grid/s1/lbbq9s", "reference": "LAY BLUE BY Q NINE SOON", "hypothesis": "LAY BLUE BY U HIGH SCHOOL", "seconds": 1.4123}
+{"id": "grid/s1/lbbr1a", "reference": "LAY BLUE BY R ONE AGAIN", "hypothesis": "LAY BLUE BY I ONE AGAIN", "seconds": 1.1483}
+{"id": "grid/s1/lbij7s", "reference": "LAY BLUE IN J SEVEN SOON", "hypothesis": "LAY BLUE AT J SEVEN SOON", "seconds": 1.1714}
+{"id": "grid/s1/lbiq2p", "reference": "LAY BLUE IN Q TWO PLEASE", "hypothesis": "KEEP GOING SOON PLEASE", "seconds": 1.3951}
+{"id": "grid/s1/lbiq3a", "reference": "LAY BLUE IN Q THREE AGAIN", "hypothesis": "LAY BLUE IN U THREE AGAIN", "seconds": 1.4789}
+{"id": "grid/s1/lbwe4n", "reference": "LAY BLUE WITH E FOUR NOW", "hypothesis": "LAY BLUE WITH FOUR NOW", "seconds": 1.1948}
+{"id": "grid/s1/lbwl1a", "reference": "LAY BLUE WITH L ONE AGAIN", "hypothesis": "LAY BLUE WITHOUT ONE AGAIN", "seconds": 1.1107}
+{"id": "grid/s1/lbwr3s", "reference": "LAY BLUE WITH R THREE SOON", "hypothesis": "LAY BLUE ON PREACHER", "seconds": 1.2039}
+{"id": "grid/s1/lbwr4p", "reference": "LAY BLUE WITH R FOUR PLEASE", "hypothesis": "LAY BLUE WITH R FOUR PLEASE", "seconds": 1.1524}
+{"id": "grid/s1/lgal8n", "reference": "LAY GREEN AT L EIGHT NOW", "hypothesis": "LEAD NOW", "seconds": 1.1646}
+{"id": "grid/s1/lgam1a", "reference": "LAY GREEN AT M ONE AGAIN", "hypothesis": "LEAD WITH GAME ONE AGAIN", "seconds": 1.092}
+{"id": "grid/s1/lgaz7s", "reference": "LAY GREEN AT Z SEVEN SOON", "hypothesis": "LAY GREEN AT ST SEVEN SOON", "seconds": 1.3405}
+{"id": "grid/s1/lgbgzp", "reference": "LAY GREEN BY G ZERO PLEASE", "hypothesis": "LAY GREEN BY G ZERO PLEASE", "seconds": 1.1495}
+{"id": "grid/s1/lgbm2n", "reference": "LAY GREEN BY M TWO NOW", "hypothesis": "LAY GREEN P M TWO NOW", "seconds": 1.2693}
+{"id": "grid/s1/lgbm5a", "reference": "LAY GREEN BY M FIVE AGAIN", "hypothesis": "LAY GREEN BY M FIVE AGAIN", "seconds": 1.2661}
+{"id": "grid/s1/lgif1s", "reference": "LAY GREEN IN F ONE SOON", "hypothesis": "LAY GREEN LEFT ONE SOON", "seconds": 1.2448}
+{"id": "grid/s1/lgif2p", "reference": "LAY GREEN IN F TWO PLEASE", "hypothesis": "LAY GREEN LEFT TWO PLEASE", "seconds": 1.0253}
+{"id": "grid/s1/lgil6p", "reference": "LAY GREEN IN L SIX PLEASE", "hypothesis": "LAY WEAK AT SIX PLEASE", "seconds": 1.4608}
+{"id": "grid/s1/lgir8n", "reference": "LAY GREEN IN R EIGHT NOW", "hypothesis": "LAY GREEN AT R EIGHT NOW", "seconds": 1.1832}
+{"id": "grid/s1/lgir9s", "reference": "LAY GREEN IN R NINE SOON", "hypothesis": "LAY GREEN AT NINE SOON", "seconds": 1.4122}
+{"id": "grid/s1/lgiszp", "reference": "LAY GREEN IN S ZERO PLEASE", "hypothesis": "LAY GREEN AT ZERO PLEASE", "seconds": 1.4451}
+{"id": "grid/s1/lgwt1s", "reference": "LAY GREEN WITH T ONE SOON", "hypothesis": "LAY GREEN WITH G ONE SOON", "seconds": 1.4778}
+{"id": "grid/s1/lrae2n", "reference": "LAY RED AT E TWO NOW", "hypothesis": "LAY RED AT E TWO NOW", "seconds": 1.2682}
+{"id": "grid/s1/lrae5a", "reference": "LAY RED AT E FIVE AGAIN", "hypothesis": "LAY RED IN FIVE AGAIN", "seconds": 1.2205}
+{"id": "grid/s1/lrak6n", "reference": "LAY RED AT K SIX NOW", "hypothesis": "LAY WHITE AT K SIX NOW", "seconds": 1.5447}
+{"id": "grid/s1/lrak7s", "reference": "LAY RED AT K SEVEN SOON", "hypothesis": "LAY WHITE AT 9 SEVEN SOON", "seconds": 1.2217}
+{"id": "grid/s1/lrbe7s", "reference": "LAY RED BY E SEVEN SOON", "hypothesis": "LAY WHITE BY SEVEN SOON", "seconds": 1.159}
+{"id": "grid/s1/lrbe8p", "reference": "LAY RED BY E EIGHT PLEASE", "hypothesis": "LAY WHITE BY E EIGHT PLEASE", "seconds": 1.2359}
+{"id": "grid/s1/lrid8n", "reference": "LAY RED IN D EIGHT NOW", "hypothesis": "LAY WHITE IN DA NOW", "seconds": 1.2603}
+{"id": "grid/s1/lrik4p", "reference": "LAY RED IN K FOUR PLEASE", "hypothesis": "LAY RED IN EIGHT FOUR PLEASE", "seconds": 1.1137}
+{"id": "grid/s1/lriy3a", "reference": "LAY RED IN Y THREE AGAIN", "hypothesis": "LAY WHITE IN WHITE FREE AGAIN", "seconds": 1.3099}
+{"id": "grid/s1/lrwl4n", "reference": "LAY RED WITH L FOUR NOW", "hypothesis": "LAY WHITE WITH FOUR LEGS", "seconds": 1.2264}
+{"id": "grid/s1/lwafzp", "reference": "LAY WHITE AT F ZERO PLEASE", "hypothesis": "LAY WHITE AT ZERO PLEASE", "seconds": 1.197}
+{"id": "grid/s1/lwal2n", "reference": "LAY WHITE AT L TWO NOW", "hypothesis": "LAY WHITE L TWO NOW", "seconds": 1.1947}
+{"id": "grid/s1/lwar7s", "reference": "LAY WHITE AT R SEVEN SOON", "hypothesis": "LAY WHITE R SEVEN SOON", "seconds": 1.2406}
+{"id": "grid/s1/lwar8p", "reference": "LAY WHITE AT R EIGHT PLEASE", "hypothesis": "LAY WHITE AT HIGH PLEASE", "seconds": 1.165}
+{"id": "grid/s1/lwbf4p", "reference": "LAY WHITE BY F FOUR PLEASE", "hypothesis": "LAY WHITE BY FOUR PLEASE", "seconds": 1.1189}
+{"id": "grid/s1/lwbl6n", "reference": "LAY WHITE BY L SIX NOW", "hypothesis": "LAY WHITE IN THE HOUSE SIT DOWN", "seconds": 1.4029}
+{"id": "grid/s1/lwbszn", "reference": "LAY WHITE BY S ZERO NOW", "hypothesis": "LAY WHITE BY ZERO NOW", "seconds": 1.1051}
+{"id": "grid/s1/lwbz5s", "reference": "LAY WHITE BY Z FIVE SOON", "hypothesis": "LAY WHITE BY Z FIVE SOON", "seconds": 1.1173}
+{"id": "grid/s1/lwie4n", "reference": "LAY WHITE IN E FOUR NOW", "hypothesis": "LAY WHITE REALLY FOUR NOW", "seconds": 1.2497}
+{"id": "grid/s1/lwie7a", "reference": "LAY WHITE IN E SEVEN AGAIN", "hypothesis": "LAY WHITE AT E SEVEN AGAIN", "seconds": 1.1396}
+{"id": "grid/s1/lwwm1s", "reference": "LAY WHITE WITH M ONE SOON", "hypothesis": "LAY WHITE WITH M ONE SOON", "seconds": 1.2081}
+{"id": "grid/s1/lwws5s", "reference": "LAY WHITE WITH S FIVE SOON", "hypothesis": "LAY WHITE WITH V FIVE SOON", "seconds": 1.1552}
+{"id": "grid/s1/lwwz9s", "reference": "LAY WHITE WITH Z NINE SOON", "hypothesis": "LAY WHITE WITH D NINE SOON", "seconds": 1.1514}
+{"id": "grid/s1/pbac1s", "reference": "PLACE BLUE AT C ONE SOON", "hypothesis": "PLACE BLUE AT G ONE SOON", "seconds": 1.1768}
+{"id": "grid/s1/pbac3a", "reference": "PLACE BLUE AT C THREE AGAIN", "hypothesis": "PLACE PURE G FREE AGAIN", "seconds": 1.1758}
+{"id": "grid/s1/pbao9s", "reference": "PLACE BLUE AT O NINE SOON", "hypothesis": "PLEASE BLUE O I SOON", "seconds": 1.146}
+{"id": "grid/s1/pbap1a", "reference": "PLACE BLUE AT P ONE AGAIN", "hypothesis": "PLACE BLUE B ONE AGAIN", "seconds": 1.0176}
+{"id": "grid/s1/pbav3s", "reference": "PLACE BLUE AT V THREE SOON", "hypothesis": "PLACE BLUE I THINK FREE SOON", "seconds": 1.2388}
+{"id": "grid/s1/pbbc4n", "reference": "PLACE BLUE BY C FOUR NOW", "hypothesis": "PLACE BLUE BY G FOUR NOW", "seconds": 1.2423}
+{"id": "grid/s1/pbbc5s", "reference": "PLACE BLUE BY C FIVE SOON", "hypothesis": "PLACE BLUE BY C FIVE SOON", "seconds": 1.1511}
+{"id": "grid/s1/pbbp5a", "reference": "PLACE BLUE BY P FIVE AGAIN", "hypothesis": "PLACE BLUE BY P FIVE AGAIN", "seconds": 1.1782}
+{"id": "grid/s1/pbbv6n", "reference": "PLACE BLUE BY V SIX NOW", "hypothesis": "PLACE BLUE BY V SIX NOW", "seconds": 1.1879}
+{"id": "grid/s1/pbib6n", "reference": "PLACE BLUE IN B SIX NOW", "hypothesis": "PLACE BLUE B SIX NOW", "seconds": 1.1246}
+{"id": "grid/s1/pbib9a", "reference": "PLACE BLUE IN B NINE AGAIN", "hypothesis": "PLACE BLUE B NINE AGAIN", "seconds": 1.0732}
+{"id": "grid/s1/pbiu9s", "reference": "PLACE BLUE IN U NINE SOON", "hypothesis": "PLACE BLUE IN U K SOON", "seconds": 1.4034}
+{"id": "grid/s1/pbiv1a", "reference": "PLACE BLUE IN V ONE AGAIN", "hypothesis": "PLACE BLUE IN V ONE AGAIN", "seconds": 1.1849}
+{"id": "grid/s1/pbwc9s", "reference": "PLACE BLUE WITH C NINE SOON", "hypothesis": "PLACE BLUE WITH C NINE AT SCHOOL", "seconds": 1.278}
+{"id": "grid/s1/pbwp7s", "reference": "PLACE BLUE WITH P SEVEN SOON", "hypothesis": "PLACE BLUE WITH B SEVEN SOON", "seconds": 1.1826}
+{"id": "grid/s1/pbwp9a", "reference": "PLACE BLUE WITH P NINE AGAIN", "hypothesis": "PLEASE BLUE B AGAIN", "seconds": 1.2309}
+{"id": "grid/s1/pgad9s", "reference": "PLACE GREEN AT D NINE SOON", "hypothesis": "PLACE GREEN AT T NINE SOON", "seconds": 1.1651}
+{"id": "grid/s1/pgak2n", "reference": "PLACE GREEN AT K TWO NOW", "hypothesis": "PLACE GREEN AT K TWO NOW", "seconds": 1.132}
+{"id": "grid/s1/pgak3s", "reference": "PLACE GREEN AT K THREE SOON", "hypothesis": "PLACE GREEN AT K FREE SOON", "seconds": 1.1902}
+{"id": "grid/s1/pgaq6n", "reference": "PLACE GREEN AT Q SIX NOW", "hypothesis": "PLACE GREEN AT Q SIX NOW", "seconds": 1.4381}
+{"id": "grid/s1/pgaq7s", "reference": "PLACE GREEN AT Q SEVEN SOON", "hypothesis": "PLACE GREEN AT Q SEVEN SOON", "seconds": 1.331}
+{"id": "grid/s1/pgay1s", "reference": "PLACE GREEN AT Y ONE SOON", "hypothesis": "BIN GREEN WHITE ONE SOON", "seconds": 1.2376}
+{"id": "grid/s1/pgay2p", "reference": "PLACE GREEN AT Y TWO PLEASE", "hypothesis": "PLACE GREEN WHITE TWO PLEASE", "seconds": 1.1291}
+{"id": "grid/s1/pgbk7s", "reference": "PLACE GREEN BY K SEVEN SOON", "hypothesis": "PLACE RED BY K SEVEN SOON", "seconds": 1.2591}
+{"id": "grid/s1/pgby5s", "reference": "PLACE GREEN BY Y FIVE SOON", "hypothesis": "PLACE GREEN BY WHITE FIVE SOON", "seconds": 1.2675}
+{"id": "grid/s1/pgid7a", "reference": "PLACE GREEN IN D SEVEN AGAIN", "hypothesis": "PLACE WITH D SEVEN AGAIN", "seconds": 1.3173}
+{"id": "grid/s1/pgij9s", "reference": "PLACE GREEN IN J NINE SOON", "hypothesis": "PLACE GREEN IN J NINE SOON", "seconds": 1.2821}
+{"id": "grid/s1/pgiq3s", "reference": "PLACE GREEN IN Q THREE SOON", "hypothesis": "PLACE REALLY AT COFFEE SOON", "seconds": 1.325}
+{"id": "grid/s1/pgix7s", "reference": "PLACE GREEN IN X SEVEN SOON", "hypothesis": "PLACE GREEN AT SEVEN SOON", "seconds": 1.2749}
+{"id": "grid/s1/pgwe7s", "reference": "PLACE GREEN WITH E SEVEN SOON", "hypothesis": "PLACE THREE MOVIE SEVEN SOON", "seconds": 1.1196}
+{"id": "grid/s1/pgwe9a", "reference": "PLACE GREEN WITH E NINE AGAIN", "hypothesis": "PLACE GREEN WITH V NINE AGAIN", "seconds": 1.2594}
+{"id": "grid/s1/pgwr6p", "reference": "PLACE GREEN WITH R SIX PLEASE", "hypothesis": "PLACE A ROOM OF R SIX PLEASE", "seconds": 1.2727}
+{"id": "grid/s1/prac6n", "reference": "PLACE RED AT C SIX NOW", "hypothesis": "PLACE ONE AT C SIX NOW", "seconds": 1.1655}
+{"id": "grid/s1/prac7s", "reference": "PLACE RED AT C SEVEN SOON", "hypothesis": "PLACE WHITE AT T SEVEN SOON", "seconds": 1.2628}
+{"id": "grid/s1/praj1s", "reference": "PLACE RED AT J ONE SOON", "hypothesis": "PLACE WEATHER J ONE SOON", "seconds": 1.1289}
+{"id": "grid/s1/prap5s", "reference": "PLACE RED AT P FIVE SOON", "hypothesis": "PLACE ONE AT B FIVE SOON", "seconds": 1.1716}
+{"id": "grid/s1/prap6p", "reference": "PLACE RED AT P SIX PLEASE", "hypothesis": "PLACE ONE AT B SIX PLEASE", "seconds": 0.6847}
+{"id": "grid/s1/prap7a", "reference": "PLACE RED AT P SEVEN AGAIN", "hypothesis": "PLACE ONE AT PEACE EVERY DAY", "seconds": 1.1115}
+{"id": "grid/s1/prbd2p", "reference": "PLACE RED BY D TWO PLEASE", "hypothesis": "PLACE RED BY T TWO PLEASE", "seconds": 1.1112}
+{"id": "grid/s1/prbdzn", "reference": "PLACE RED BY D ZERO NOW", "hypothesis": "PLACE WHITE BY D ZERO NOW", "seconds": 1.2144}
+{"id": "grid/s1/prbp8n", "reference": "PLACE RED BY P EIGHT NOW", "hypothesis": "PLACE WHITE BY B EIGHT NOW", "seconds": 1.1843}
+{"id": "grid/s1/prbx3s", "reference": "PLACE RED BY X THREE SOON", "hypothesis": "PLACE RED BY X THREE SOON", "seconds": 1.1672}
+{"id": "grid/s1/pric3s", "reference": "PLACE RED IN C THREE SOON", "hypothesis": "PLACE WHITE AT G FREE TWO", "seconds": 1.4237}
+{"id": "grid/s1/pric4p", "reference": "PLACE RED IN C FOUR PLEASE", "hypothesis": "PLACE WHITE AT C FOUR PLEASE", "seconds": 1.1685}
+{"id": "grid/s1/prii9a", "reference": "PLACE RED IN I NINE AGAIN", "hypothesis": "PLACE RED AT I AGAIN", "seconds": 1.193}
+{"id": "grid/s1/prip1s", "reference": "PLACE RED IN P ONE SOON", "hypothesis": "PLACE WHITE B ONE SOON", "seconds": 1.2121}
+{"id": "grid/s1/priv6p", "reference": "PLACE RED IN V SIX PLEASE", "hypothesis": "PLACE WHITE IN V SIX PLEASE", "seconds": 1.0815}
+{"id": "grid/s1/prwq2n", "reference": "PLACE RED WITH Q TWO NOW", "hypothesis": "PLACE ONE OFF TWO TWO NOW", "seconds": 1.1856}
+{"id": "grid/s1/prwx6n", "reference": "PLACE RED WITH X SIX NOW", "hypothesis": "PLACE WHITE ROOF AT SIX NOW", "seconds": 1.1851}
+{"id": "grid/s1/pwaj6n", "reference": "PLACE WHITE AT J SIX NOW", "hypothesis": "PLEASE WATCH G SIX NOW", "seconds": 1.2442}
+{"id": "grid/s1/pwax7a", "reference": "PLACE WHITE AT X SEVEN AGAIN", "hypothesis": "PLACE BRIGHT AGAIN SEVEN AGAIN", "seconds": 1.2266}
+{"id": "grid/s1/pwbd6n", "reference": "PLACE WHITE BY D SIX NOW", "hypothesis": "PLACE WHITE BY D SIX NOW", "seconds": 1.2017}
+{"id": "grid/s1/pwbd9a", "reference": "PLACE WHITE BY D NINE AGAIN", "hypothesis": "PLACE WHITE BY D NINE AGAIN", "seconds": 1.1544}
+{"id": "grid/s1/pwbk1s", "reference": "PLACE WHITE BY K ONE SOON", "hypothesis": "PLACE WHITE BY K ONE SOON", "seconds": 1.3793}
+{"id": "grid/s1/pwid1a", "reference": "PLACE WHITE IN D ONE AGAIN", "hypothesis": "PLACE WHITE AT G ONE AGAIN", "seconds": 1.2465}
+{"id": "grid/s1/pwij2n", "reference": "PLACE WHITE IN J TWO NOW", "hypothesis": "PLACE WHITE IN J TWO NOW", "seconds": 1.1807}
+{"id": "grid/s1/pwij3s", "reference": "PLACE WHITE IN J THREE SOON", "hypothesis": "PLACE WHITE IN J FREE SCHOOL", "seconds": 1.2103}
+{"id": "grid/s1/pwip6n", "reference": "PLACE WHITE IN P SIX NOW", "hypothesis": "PLACE WHITE IN B SIX NOW", "seconds": 1.1091}
+{"id": "grid/s1/pwip8p", "reference": "PLACE WHITE IN P EIGHT PLEASE", "hypothesis": "PLACE WHITE AT P A PLEASE", "seconds": 1.3358}
+{"id": "grid/s1/pwip9a", "reference": "PLACE WHITE IN P NINE AGAIN", "hypothesis": "PLACE WHITE IN B NINE HERE", "seconds": 1.0875}
+{"id": "grid/s1/pwixzn", "reference": "PLACE WHITE IN X ZERO NOW", "hypothesis": "PLACE WHITE AT H ZERO NOW", "seconds": 1.2989}
+{"id": "grid/s1/pwwk7a", "reference": "PLACE WHITE WITH K SEVEN AGAIN", "hypothesis": "PLACE WHITE WITH K SEVEN AGAIN", "seconds": 1.1108}
+{"id": "grid/s1/pwwq8n", "reference": "PLACE WHITE WITH Q EIGHT NOW", "hypothesis": "PLACE WHITE WITH TWO EIGHT NOW", "seconds": 1.2238}
+{"id": "grid/s1/sbaa4n", "reference": "SET BLUE AT A FOUR NOW", "hypothesis": "M BLUE A FOUR NOW", "seconds": 1.1381}
+{"id": "grid/s1/sbaa7a", "reference": "SET BLUE AT A SEVEN AGAIN", "hypothesis": "SAMPLE EIGHT SEVEN AGAIN", "seconds": 1.2146}
+{"id": "grid/s1/sbag9s", "reference": "SET BLUE AT G NINE SOON", "hypothesis": "TEMP BLUE G HIGH SCHOOL", "seconds": 1.2477}
+{"id": "grid/s1/sbbn8p", "reference": "SET BLUE BY N EIGHT PLEASE", "hypothesis": "SET BLUE BY N EIGHT PLEASE", "seconds": 1.4171}
+{"id": "grid/s1/sbbn9a", "reference": "SET BLUE BY N NINE AGAIN", "hypothesis": "STEP BLUE BY NINE AGAIN", "seconds": 1.1867}
+{"id": "grid/s1/sbbu2p", "reference": "SET BLUE BY U TWO PLEASE", "hypothesis": "TEMPO BY U TWO PLEASE", "seconds": 1.1587}
+{"id": "grid/s1/sbbuzn", "reference": "SET BLUE BY U ZERO NOW", "hypothesis": "SET BLUE BY E ZERO NOW", "seconds": 1.2492}
+{"id": "grid/s1/sbia1s", "reference": "SET BLUE IN A ONE SOON", "hypothesis": "W A ONE SOON", "seconds": 1.2178}
+{"id": "grid/s1/sbia2p", "reference": "SET BLUE IN A TWO PLEASE", "hypothesis": "SAMPLE N TWO PLEASE", "seconds": 1.2547}
+{"id": "grid/s1/sbit5a", "reference": "SET BLUE IN T FIVE AGAIN", "hypothesis": "W T FIVE AGAIN", "seconds": 1.1301}
+{"id": "grid/s1/sbwb4p", "reference": "SET BLUE WITH B FOUR PLEASE", "hypothesis": "W B FOUR PLEASE", "seconds": 1.406}
+{"id": "grid/s1/sbwo2p", "reference": "SET BLUE WITH O TWO PLEASE", "hypothesis": "TEMPO WITH O TWO PLEASE", "seconds": 1.4417}
+{"id": "grid/s1/sbwo3a", "reference": "SET BLUE WITH O THREE AGAIN", "hypothesis": "SET BLUE WITH THREE AGAIN", "seconds": 1.205}
+{"id": "grid/s1/sbwozn", "reference": "SET BLUE WITH O ZERO NOW", "hypothesis": "SET BLUE WITH ZERO NOW", "seconds": 1.2276}
+{"id": "grid/s1/sgac4p", "reference": "SET GREEN AT C FOUR PLEASE", "hypothesis": "SET GREEN AT G FOUR PLEASE", "seconds": 1.3587}
+{"id": "grid/s1/sgai6n", "reference": "SET GREEN AT I SIX NOW", "hypothesis": "SET GREEN AT E SIX NOW", "seconds": 1.4322}
+{"id": "grid/s1/sgai7s", "reference": "SET GREEN AT I SEVEN SOON", "hypothesis": "SET GREEN HIGH SEVEN SOON", "seconds": 1.2292}
+{"id": "grid/s1/sgap2p", "reference": "SET GREEN AT P TWO PLEASE", "hypothesis": "SET THREE AT B TWO PLEASE", "seconds": 1.3175}
+{"id": "grid/s1/sgap3a", "reference": "SET GREEN AT P THREE AGAIN", "hypothesis": "SET GREEN AT B FREE", "seconds": 1.2009}
+{"id": "grid/s1/sgav5s", "reference": "SET GREEN AT V FIVE SOON", "hypothesis": "SET GREEN AT V FIVE SOON", "seconds": 1.2455}
+{"id": "grid/s1/sgav6p", "reference": "SET GREEN AT V SIX PLEASE", "hypothesis": "SET GREEN AT V SIX PLEASE", "seconds": 1.3679}
+{"id": "grid/s1/sgbc6n", "reference": "SET GREEN BY C SIX NOW", "hypothesis": "SET GREEN BY C SIX", "seconds": 1.5979}
+{"id": "grid/s1/sgbj2p", "reference": "SET GREEN BY J TWO PLEASE", "hypothesis": "SET GREEN BY J TWO PLEASE", "seconds": 1.2416}
+{"id": "grid/s1/sgbjzn", "reference": "SET GREEN BY J ZERO NOW", "hypothesis": "SET GREEN BY J ZERO NOW", "seconds": 1.2619}
+{"id": "grid/s1/sgbp6p", "reference": "SET GREEN BY P SIX PLEASE", "hypothesis": "SET GREEN BY P SIX PLEASE", "seconds": 1.3104}
+{"id": "grid/s1/sgib9s", "reference": "SET GREEN IN B NINE SOON", "hypothesis": "SET GREEN IN B NINE SOON", "seconds": 1.2502}
+{"id": "grid/s1/sgii2n", "reference": "SET GREEN IN I TWO NOW", "hypothesis": "SET GREEN IN I TWO NOW", "seconds": 1.1848}
+{"id": "grid/s1/sgii5a", "reference": "SET GREEN IN I FIVE AGAIN", "hypothesis": "SET GREEN IN I FIVE AGAIN", "seconds": 1.2804}
+{"id": "grid/s1/sgio7s", "reference": "SET GREEN IN O SEVEN SOON", "hypothesis": "SET GREEN O SEVEN SOON", "seconds": 1.0326}
+{"id": "grid/s1/sgio9a", "reference": "SET GREEN IN O NINE AGAIN", "hypothesis": "G GREEN AT O NINE AGAIN", "seconds": 1.5552}
+{"id": "grid/s1/sgiv1s", "reference": "SET GREEN IN V ONE SOON", "hypothesis": "SET GREEN AT V ONE SOON", "seconds": 1.2733}
+{"id": "grid/s1/sgwd1s", "reference": "SET GREEN WITH D ONE SOON", "hypothesis": "SET A DREAM OF D ONE SOON", "seconds": 1.3151}
+{"id": "grid/s1/sgwj4n", "reference": "SET GREEN WITH J FOUR NOW", "hypothesis": "DAY THREE WITH G FOUR NOW", "seconds": 1.1531}
+{"id": "grid/s1/sgwj6p", "reference": "SET GREEN WITH J SIX PLEASE", "hypothesis": "SET GREEN WITH J SIX PLEASE", "seconds": 1.0537}
+{"id": "grid/s1/sgwp8n", "reference": "SET GREEN WITH P EIGHT NOW", "hypothesis": "SET GREEN WITH B EIGHT NOW", "seconds": 1.1681}
+{"id": "grid/s1/sgwq1a", "reference": "SET GREEN WITH Q ONE AGAIN", "hypothesis": "SET GREEN WITH Q ONE AGAIN", "seconds": 1.4547}
+{"id": "grid/s1/sgwx2n", "reference": "SET GREEN WITH X TWO NOW", "hypothesis": "SET THREE WITH H TWO NOW", "seconds": 1.047}
+{"id": "grid/s1/sgwx4p", "reference": "SET GREEN WITH X FOUR PLEASE", "hypothesis": "SECOND ONE WITH S FOUR PLEASE", "seconds": 1.3535}
+{"id": "grid/s1/srab1s", "reference": "SET RED AT B ONE SOON", "hypothesis": "SET RED AT B ONE SOON", "seconds": 1.2729}
+{"id": "grid/s1/srah4n", "reference": "SET RED AT H FOUR NOW", "hypothesis": "SET 1 H FOUR NOW", "seconds": 1.0955}
+{"id": "grid/s1/sran8n", "reference": "SET RED AT N EIGHT NOW", "hypothesis": "SET ONE AT EIGHT NOW", "seconds": 1.0964}
+{"id": "grid/s1/sran9s", "reference": "SET RED AT N NINE SOON", "hypothesis": "10 1 AT 9 TWO", "seconds": 1.0238}
+{"id": "grid/s1/srau2n", "reference": "SET RED AT U TWO NOW", "hypothesis": "SET WHITE IN U TWO NOW", "seconds": 1.4051}
+{"id": "grid/s1/srau4p", "reference": "SET RED AT U FOUR PLEASE", "hypothesis": "SET ONE IN YOUR FOUR PLEASE", "seconds": 1.2494}
+{"id": "grid/s1/srbb4n", "reference": "SET RED BY B FOUR NOW", "hypothesis": "SET RED BY B FOUR NOW", "seconds": 1.1081}
+{"id": "grid/s1/srbb5s", "reference": "SET RED BY B FIVE SOON", "hypothesis": "SET RED BY P FIVE SOON", "seconds": 1.2473}
+{"id": "grid/s1/srbb7a", "reference": "SET RED BY B SEVEN AGAIN", "hypothesis": "SET RED BY PLEASE EVERYTHING", "seconds": 1.168}
+{"id": "grid/s1/srbh8n", "reference": "SET RED BY H EIGHT NOW", "hypothesis": "SET WHITE BY J NOW", "seconds": 1.2344}
+{"id": "grid/s1/srbh9s", "reference": "SET RED BY H NINE SOON", "hypothesis": "SET RED BY G TWO", "seconds": 1.2645}
+{"id": "grid/s1/srbo2n", "reference": "SET RED BY O TWO NOW", "hypothesis": "SET RED BY O SOON NOW", "seconds": 1.2723}
+{"id": "grid/s1/srbo3s", "reference": "SET RED BY O THREE SOON", "hypothesis": "SET RED BY R FREE TWO", "seconds": 1.3615}
+{"id": "grid/s1/srbu9a", "reference": "SET RED BY U NINE AGAIN", "hypothesis": "STAY WHITE BY U NINE AGAIN", "seconds": 1.1871}
+{"id": "grid/s1/sria6n", "reference": "SET RED IN A SIX NOW", "hypothesis": "SET WHITE AT SIX NOW", "seconds": 1.2057}
+{"id": "grid/s1/srih2p", "reference": "SET RED IN H TWO PLEASE", "hypothesis": "SET RED AT TWO PLEASE", "seconds": 1.4666}
+{"id": "grid/s1/srihzn", "reference": "SET RED IN H ZERO NOW", "hypothesis": "SET WHITE AT H ZERO NOW", "seconds": 1.2878}
+{"id": "grid/s1/srin5s", "reference": "SET RED IN N FIVE SOON", "hypothesis": "SET RED AT FIVE SOON", "seconds": 1.1314}
+{"id": "grid/s1/srin7a", "reference": "SET RED IN N SEVEN AGAIN", "hypothesis": "SET RED AT H SEVEN AGAIN", "seconds": 1.2176}
+{"id": "grid/s1/srwb8n", "reference": "SET RED WITH B EIGHT NOW", "hypothesis": "SET WHITE WITH PLAY NOW", "seconds": 1.2193}
+{"id": "grid/s1/srwczp", "reference": "SET RED WITH C ZERO PLEASE", "hypothesis": "SET RED WITH C ZERO PLEASE", "seconds": 1.2686}
+{"id": "grid/s1/srwo7s", "reference": "SET RED WITH O SEVEN SOON", "hypothesis": "SET WHITE WITH O SEVEN SOON", "seconds": 1.2778}
+{"id": "grid/s1/srwo9a", "reference": "SET RED WITH O NINE AGAIN", "hypothesis": "SET WHITE WITH O NINE AGAIN", "seconds": 1.3094}
+{"id": "grid/s1/srwv3a", "reference": "SET RED WITH V THREE AGAIN", "hypothesis": "DAY WHITE WITH V FREE AGAIN", "seconds": 1.4239}
+{"id": "grid/s1/swab8p", "reference": "SET WHITE AT B EIGHT PLEASE", "hypothesis": "SET WHITE AT P PLEASE", "seconds": 1.3458}
+{"id": "grid/s1/swab9a", "reference": "SET WHITE AT B NINE AGAIN", "hypothesis": "SET WHITE A B IDEA", "seconds": 1.2752}
+{"id": "grid/s1/swai1s", "reference": "SET WHITE AT I ONE SOON", "hypothesis": "SET WHITE I ONE SOON", "seconds": 1.2883}
+{"id": "grid/s1/swbc1s", "reference": "SET WHITE BY C ONE SOON", "hypothesis": "SET WHITE BY T ONE SOON", "seconds": 1.2494}
+{"id": "grid/s1/swbi7a", "reference": "SET WHITE BY I SEVEN AGAIN", "hypothesis": "SET WHITE BY I SEVEN AGAIN", "seconds": 1.2329}
+{"id": "grid/s1/swbo8n", "reference": "SET WHITE BY O EIGHT NOW", "hypothesis": "SET WHITE BY OK NOW", "seconds": 1.357}
+{"id": "grid/s1/swbv3s", "reference": "SET WHITE BY V THREE SOON", "hypothesis": "SET WHITE BY FI FREE SCHOOL", "seconds": 1.4347}
+{"id": "grid/s1/swbv4p", "reference": "SET WHITE BY V FOUR PLEASE", "hypothesis": "SET WHITE BY V FOUR PLEASE", "seconds": 1.2641}
+{"id": "grid/s1/swbv5a", "reference": "SET WHITE BY V FIVE AGAIN", "hypothesis": "SET WHITE BY RE FIVE AGAIN", "seconds": 1.2504}
+{"id": "grid/s1/swib5a", "reference": "SET WHITE IN B FIVE AGAIN", "hypothesis": "SET WHITE B FIVE AGAIN", "seconds": 1.2501}
+{"id": "grid/s1/swiu4n", "reference": "SET WHITE IN U FOUR NOW", "hypothesis": "SET WHITE IN YOUR FOUR NOW", "seconds": 1.2816}
+{"id": "grid/s1/swwc4n", "reference": "SET WHITE WITH C FOUR NOW", "hypothesis": "SET WHITE WITH C FOUR NOW", "seconds": 1.2427}
+{"id": "grid/s1/swwc6p", "reference": "SET WHITE WITH C SIX PLEASE", "hypothesis": "SET WHITE WITH C SIX PLEASE", "seconds": 1.4384}
+{"id": "grid/s1/swwi8n", "reference": "SET WHITE WITH I EIGHT NOW", "hypothesis": "SET WHITE WITH BY EIGHT NOW", "seconds": 1.3676}
+{"id": "grid/s1/swwv8p", "reference": "SET WHITE WITH V EIGHT PLEASE", "hypothesis": "SET WHITE WITH V I PLEASE", "seconds": 1.3703}
+{"id": "grid/s2/bbaf1n", "reference": "BIN BLUE AT F ONE NOW", "hypothesis": "BIN BLUE AT F ONE NOW", "seconds": 1.1666}
+{"id": "grid/s2/bbaf2s", "reference": "BIN BLUE AT F TWO SOON", "hypothesis": "BIN BLUE AT F TWO SOON", "seconds": 1.4104}
+{"id": "grid/s2/bbaf3p", "reference": "BIN BLUE AT F THREE PLEASE", "hypothesis": "BIN BLUE IN F THREE PLEASE", "seconds": 1.3702}
+{"id": "grid/s2/bbaf4a", "reference": "BIN BLUE AT F FOUR AGAIN", "hypothesis": "BIN BLUE AT F FOUR AGAIN", "seconds": 1.4693}
+{"id": "grid/s2/bbas1p", "reference": "BIN BLUE AT S ONE PLEASE", "hypothesis": "BIN BLUE AT S ONE PLEASE", "seconds": 1.3338}
+{"id": "grid/s2/bbaz3n", "reference": "BIN BLUE AT Z THREE NOW", "hypothesis": "BIN BLUE AT 10 RIGHT NOW", "seconds": 1.5431}
+{"id": "grid/s2/bbaz4s", "reference": "BIN BLUE AT Z FOUR SOON", "hypothesis": "BIN BLUE IN ST FOUR SOON", "seconds": 1.8864}
+{"id": "grid/s2/bbaz5p", "reference": "BIN BLUE AT Z FIVE PLEASE", "hypothesis": "BIN BLUE IN T FIVE PLEASE", "seconds": 1.2781}
+{"id": "grid/s2/bbaz6a", "reference": "BIN BLUE AT Z SIX AGAIN", "hypothesis": "BIN BLUE AT C SIX AGAIN", "seconds": 1.5597}
+{"id": "grid/s2/bbbf8a", "reference": "BIN BLUE BY F EIGHT AGAIN", "hypothesis": "BIN BLUE BY AIR V TODAY", "seconds": 1.7717}
+{"id": "grid/s2/bbbm2a", "reference": "BIN BLUE BY M TWO AGAIN", "hypothesis": "BIN BLUE BY M 28", "seconds": 1.2474}
+{"id": "grid/s2/bbie8s", "reference": "BIN BLUE IN E EIGHT SOON", "hypothesis": "BIN BLUE IN K EIGHT SOON", "seconds": 1.2085}
+{"id": "grid/s2/bbil2s", "reference": "BIN BLUE IN L TWO SOON", "hypothesis": "BIN BLUE AT L TWO SOON", "seconds": 1.2658}
+{"id": "grid/s2/bbir5n", "reference": "BIN BLUE IN R FIVE NOW", "hypothesis": "BIN BLUE IN I FIVE NOW", "seconds": 0.8925}
+{"id": "grid/s2/bbir7p", "reference": "BIN BLUE IN R SEVEN PLEASE", "hypothesis": "BIN BLUE IN R SEVEN PLEASE", "seconds": 0.9937}
+{"id": "grid/s2/bbir8a", "reference": "BIN BLUE IN R EIGHT AGAIN", "hypothesis": "BIN BLUE AT R EIGHT AGAIN", "seconds": 1.328}
+{"id": "grid/s2/bbiy9n", "reference": "BIN BLUE IN Y NINE NOW", "hypothesis": "BIN BETWEEN WHITE NINE NOW", "seconds": 1.4167}
+{"id": "grid/s2/bbizzs", "reference": "BIN BLUE IN Z ZERO SOON", "hypothesis": "BIN BLUE AT 10 ZERO SOON", "seconds": 1.2452}
+{"id": "grid/s2/bbwf9n", "reference": "BIN BLUE WITH F NINE NOW", "hypothesis": "BIN BLUE WITH F NINE NOW", "seconds": 1.2453}
+{"id": "grid/s2/bbwg2a", "reference": "BIN BLUE WITH G TWO AGAIN", "hypothesis": "BIN BLUE WITH G TWO AGAIN", "seconds": 1.5251}
+{"id": "grid/s2/bbwm3n", "reference": "BIN BLUE WITH M THREE NOW", "hypothesis": "BIN BLUE WITH EMPTY RIGHT NOW", "seconds": 1.4126}
+{"id": "grid/s2/bgaa5n", "reference": "BIN GREEN AT A FIVE NOW", "hypothesis": "B GREEN AT T FIVE NOW", "seconds": 1.2203}
+{"id": "grid/s2/bgah2a", "reference": "BIN GREEN AT H TWO AGAIN", "hypothesis": "BIG RED ATTENTION TO IT AGAIN", "seconds": 1.6808}
+{"id": "grid/s2/bgat8s", "reference": "BIN GREEN AT T EIGHT SOON", "hypothesis": "BIN GREEN AT C EIGHT SOON", "seconds": 1.3014}
+{"id": "grid/s2/bgbh4s", "reference": "BIN GREEN BY H FOUR SOON", "hypothesis": "BIG GREEN BY EIGHT FOUR SOON", "seconds": 1.3242}
+{"id": "grid/s2/bgbh6a", "reference": "BIN GREEN BY H SIX AGAIN", "hypothesis": "B GREEN BY H SIX AGAIN", "seconds": 1.3524}
+{"id": "grid/s2/bgbn7n", "reference": "BIN GREEN BY N SEVEN NOW", "hypothesis": "BIN GREEN BY N SEVEN NOW", "seconds": 1.2429}
+{"id": "grid/s2/bgbn9p", "reference": "BIN GREEN BY N NINE PLEASE", "hypothesis": "MAKE GREEN BY EIGHT NINE PLEASE", "seconds": 1.3488}
+{"id": "grid/s2/bgig5n", "reference": "BIN GREEN IN G FIVE NOW", "hypothesis": "BIN GREEN AT G FIVE NOW", "seconds": 1.1702}
+{"id": "grid/s2/bgin1p", "reference": "BIN GREEN IN N ONE PLEASE", "hypothesis": "BIN GREEN IN EIGHT ONE PLEASE", "seconds": 1.3508}
+{"id": "grid/s2/bgin2a", "reference": "BIN GREEN IN N TWO AGAIN", "hypothesis": "B GREEN AGAIN TWO AGAIN", "seconds": 1.3519}
+{"id": "grid/s2/bginzs", "reference": "BIN GREEN IN N ZERO SOON", "hypothesis": "BIG GREEN AGAIN SEVEN SOON", "seconds": 1.8794}
+{"id": "grid/s2/bgwh7n", "reference": "BIN GREEN WITH H SEVEN NOW", "hypothesis": "BIN GREEN WITH H SEVEN NOW", "seconds": 1.2348}
+{"id": "grid/s2/bgwo3p", "reference": "BIN GREEN WITH O THREE PLEASE", "hypothesis": "BY GREEN WITHOUT THE RIGHT PLEASE", "seconds": 1.3011}
+{"id": "grid/s2/bgwo4a", "reference": "BIN GREEN WITH O FOUR AGAIN", "hypothesis": "BIN GREEN WITH O FOUR AGAIN", "seconds": 1.3032}
+{"id": "grid/s2/bgwu6s", "reference": "BIN GREEN WITH U SIX SOON", "hypothesis": "BAY GREEN WITH GOOD TEN SOON", "seconds": 1.63}
+{"id": "grid/s2/bgwu7p", "reference": "BIN GREEN WITH U SEVEN PLEASE", "hypothesis": "BIN RED WITH Q SEVEN PLEASE", "seconds": 1.3754}
+{"id": "grid/s2/bras6s", "reference": "BIN RED AT S SIX SOON", "hypothesis": "BIN RED AT SIX SOON", "seconds": 1.2779}
+{"id": "grid/s2/bras7p", "reference": "BIN RED AT S SEVEN PLEASE", "hypothesis": "BIN RED AT SEVEN PLEASE", "seconds": 1.2642}
+{"id": "grid/s2/braz9n", "reference": "BIN RED AT Z NINE NOW", "hypothesis": "BIN RED IN SUNDAY NOW", "seconds": 1.5697}
+{"id": "grid/s2/brbaza", "reference": "BIN RED BY A ZERO AGAIN", "hypothesis": "BIN RED BY ZERO AGAIN", "seconds": 1.341}
+{"id": "grid/s2/brbg2s", "reference": "BIN RED BY G TWO SOON", "hypothesis": "BIN RED BY G TWO SOON", "seconds": 1.2871}
+{"id": "grid/s2/brbm5n", "reference": "BIN RED BY M FIVE NOW", "hypothesis": "BIN RED BY M FIVE NOW", "seconds": 1.3761}
+{"id": "grid/s2/bril7n", "reference": "BIN RED IN L SEVEN NOW", "hypothesis": "BIN RED AGAIN SEVEN NOW", "seconds": 1.3548}
+{"id": "grid/s2/bril8s", "reference": "BIN RED IN L EIGHT SOON", "hypothesis": "BIN RED IN LA SOON", "seconds": 1.2091}
+{"id": "grid/s2/bris1n", "reference": "BIN RED IN S ONE NOW", "hypothesis": "BIN RED IN THIS ONE NOW", "seconds": 1.2294}
+{"id": "grid/s2/bris2s", "reference": "BIN RED IN S TWO SOON", "hypothesis": "BIN RED AT S TWO SOON", "seconds": 1.2406}
+{"id": "grid/s2/briz5n", "reference": "BIN RED IN Z FIVE NOW", "hypothesis": "BIN RED IN Z FIVE NOW", "seconds": 1.4275}
+{"id": "grid/s2/briz6s", "reference": "BIN RED IN Z SIX SOON", "hypothesis": "BIN RED AT SIX SOON", "seconds": 1.3398}
+{"id": "grid/s2/briz7p", "reference": "BIN RED IN Z SEVEN PLEASE", "hypothesis": "BED RED AT SIX SEVEN PLEASE", "seconds": 0.9064}
+{"id": "grid/s2/brwa1n", "reference": "BIN RED WITH A ONE NOW", "hypothesis": "BIN RED WITH ED ONE NOW", "seconds": 0.9753}
+{"id": "grid/s2/brwa3p", "reference": "BIN RED WITH A THREE PLEASE", "hypothesis": "BIN RED WITH A THREE PLEASE", "seconds": 0.9261}
+{"id": "grid/s2/brwg5n", "reference": "BIN RED WITH G FIVE NOW", "hypothesis": "B RED WITH G FIVE NOW", "seconds": 1.0493}
+{"id": "grid/s2/brwm9n", "reference": "BIN RED WITH M NINE NOW", "hypothesis": "BIN RED WITH M NINE NOW", "seconds": 0.965}
+{"id": "grid/s2/brwt5p", "reference": "BIN RED WITH T FIVE PLEASE", "hypothesis": "BED RED WITH C FIVE PLEASE", "seconds": 0.952}
+{"id": "grid/s2/bwaa2a", "reference": "BIN WHITE AT A TWO AGAIN", "hypothesis": "BIN WHITE AT K TWO AGAIN", "seconds": 0.9111}
+{"id": "grid/s2/bwaazs", "reference": "BIN WHITE AT A ZERO SOON", "hypothesis": "BIN WHITE AT TEN SEVEN OR TWO", "seconds": 1.1937}
+{"id": "grid/s2/bwag5p", "reference": "BIN WHITE AT G FIVE PLEASE", "hypothesis": "BIN WHITE AT G FIVE PLEASE", "seconds": 0.9249}
+{"id": "grid/s2/bwat1n", "reference": "BIN WHITE AT T ONE NOW", "hypothesis": "BIN WHITE AT T ONE NOW", "seconds": 0.8882}
+{"id": "grid/s2/bwat4a", "reference": "BIN WHITE AT T FOUR AGAIN", "hypothesis": "BIN WHITE AT C FOUR AGAIN", "seconds": 0.8898}
+{"id": "grid/s2/bwba3n", "reference": "BIN WHITE BY A THREE NOW", "hypothesis": "BIN WHITE BY EIGHT RIGHT NOW", "seconds": 1.0242}
+{"id": "grid/s2/bwbhza", "reference": "BIN WHITE BY H ZERO AGAIN", "hypothesis": "BIN WHITE BY H ZERO AGAIN", "seconds": 1.0257}
+{"id": "grid/s2/bwbt5n", "reference": "BIN WHITE BY T FIVE NOW", "hypothesis": "BIN WHITE BY C FIVE NOW", "seconds": 0.9689}
+{"id": "grid/s2/bwbt7p", "reference": "BIN WHITE BY T SEVEN PLEASE", "hypothesis": "BIN WISE BY C SEVEN PLEASE", "seconds": 0.9635}
+{"id": "grid/s2/bwif9n", "reference": "BIN WHITE IN F NINE NOW", "hypothesis": "BIN WHITE AT F NINE NOW", "seconds": 0.8487}
+{"id": "grid/s2/bwim5p", "reference": "BIN WHITE IN M FIVE PLEASE", "hypothesis": "BIN WHITE IN M FIVE PLEASE", "seconds": 0.8346}
+{"id": "grid/s2/bwwh1n", "reference": "BIN WHITE WITH H ONE NOW", "hypothesis": "BIN WHITE WITH H ONE NOW", "seconds": 0.9346}
+{"id": "grid/s2/lbak1p", "reference": "LAY BLUE AT K ONE PLEASE", "hypothesis": "LAY BLUE AT K ONE PLEASE", "seconds": 0.9253}
+{"id": "grid/s2/lbbd9n", "reference": "LAY BLUE BY D NINE NOW", "hypothesis": "LAY BLUE BY Z NINE NOW", "seconds": 1.2968}
+{"id": "grid/s2/lbbk5p", "reference": "LAY BLUE BY K FIVE PLEASE", "hypothesis": "LAY BLUE BY K FIVE PLEASE", "seconds": 0.931}
+{"id": "grid/s2/lbbq8s", "reference": "LAY BLUE BY Q EIGHT SOON", "hypothesis": "CLIP BLUE BY O EIGHT SOON", "seconds": 1.0519}
+{"id": "grid/s2/lbij5n", "reference": "LAY BLUE IN J FIVE NOW", "hypothesis": "LAY BLUE IN J FIVE NOW", "seconds": 0.8351}
+{"id": "grid/s2/lbij6s", "reference": "LAY BLUE IN J SIX SOON", "hypothesis": "LEAD BLUE IN J SIX SOON", "seconds": 1.031}
+{"id": "grid/s2/lbiq1p", "reference": "LAY BLUE IN Q ONE PLEASE", "hypothesis": "LEAD BLUE IN Q ONE PLEASE", "seconds": 1.1301}
+{"id": "grid/s2/lbix4s", "reference": "LAY BLUE IN X FOUR SOON", "hypothesis": "LAY BLUE AT X FOUR SOON", "seconds": 0.9902}
+{"id": "grid/s2/lbix5p", "reference": "LAY BLUE IN X FIVE PLEASE", "hypothesis": "LINK BLUE IN X FIVE PLEASE", "seconds": 0.9241}
+{"id": "grid/s2/lbix6a", "reference": "LAY BLUE IN X SIX AGAIN", "hypothesis": "LEAD BLUE AT N SIX AGAIN", "seconds": 0.8407}
+{"id": "grid/s2/lbwk9p", "reference": "LAY BLUE WITH K NINE PLEASE", "hypothesis": "LAY BLUE WITH K NINE PLEASE", "seconds": 0.9728}
+{"id": "grid/s2/lbwr1n", "reference": "LAY BLUE WITH R ONE NOW", "hypothesis": "LAY BLUE WITH A ONE NOW", "seconds": 0.8135}
+{"id": "grid/s2/lbwr3p", "reference": "LAY BLUE WITH R THREE PLEASE", "hypothesis": "LAY BLUE WITH R THREE PLEASE", "seconds": 0.8657}
+{"id": "grid/s2/lbwy5n", "reference": "LAY BLUE WITH Y FIVE NOW", "hypothesis": "KEEPING YOU AT Y FIVE NOW", "seconds": 0.9342}
+{"id": "grid/s2/lgaf5p", "reference": "LAY GREEN AT F FIVE PLEASE", "hypothesis": "LAY GREEN AT F FIVE PLEASE", "seconds": 0.8282}
+{"id": "grid/s2/lgal8s", "reference": "LAY GREEN AT L EIGHT SOON", "hypothesis": "LAY GREEN AT TAIL EIGHT SOON", "seconds": 1.1571}
+{"id": "grid/s2/lgas4a", "reference": "LAY GREEN AT S FOUR AGAIN", "hypothesis": "LAY GREEN AT SIX FOUR AGAIN", "seconds": 1.0342}
+{"id": "grid/s2/lgaz6s", "reference": "LAY GREEN AT Z SIX SOON", "hypothesis": "LAY GREEN AT 10 SIX SOON", "seconds": 1.0301}
+{"id": "grid/s2/lgaz7p", "reference": "LAY GREEN AT Z SEVEN PLEASE", "hypothesis": "LAY GREEN AT C SEVEN PLEASE", "seconds": 0.8904}
+{"id": "grid/s2/lgaz8a", "reference": "LAY GREEN AT Z EIGHT AGAIN", "hypothesis": "LAY GREEN AT Z AGAIN", "seconds": 0.8759}
+{"id": "grid/s2/lgbf9p", "reference": "LAY GREEN BY F NINE PLEASE", "hypothesis": "LAY GREEN BY F NINE PLEASE", "seconds": 0.8182}
+{"id": "grid/s2/lgbgza", "reference": "LAY GREEN BY G ZERO AGAIN", "hypothesis": "LAY GREEN BY G ZERO AGAIN", "seconds": 0.9906}
+{"id": "grid/s2/lgie9n", "reference": "LAY GREEN IN E NINE NOW", "hypothesis": "LAY GREEN IN NINE NOW", "seconds": 0.8638}
+{"id": "grid/s2/lgifzs", "reference": "LAY GREEN IN F ZERO SOON", "hypothesis": "LAY GREEN AT F ZERO SOON", "seconds": 0.9485}
+{"id": "grid/s2/lgir7n", "reference": "LAY GREEN IN R SEVEN NOW", "hypothesis": "LAY GREEN AT R SEVEN NOW", "seconds": 0.8962}
+{"id": "grid/s2/lgir8s", "reference": "LAY GREEN IN R EIGHT SOON", "hypothesis": "LAY RED IN OUR ICE SOON", "seconds": 0.9832}
+{"id": "grid/s2/lgir9p", "reference": "LAY GREEN IN R NINE PLEASE", "hypothesis": "LAY RED IN R NINE PLEASE", "seconds": 0.8535}
+{"id": "grid/s2/lgiz1n", "reference": "LAY GREEN IN Z ONE NOW", "hypothesis": "LAY GREEN IN 10 ONE NOW", "seconds": 0.8328}
+{"id": "grid/s2/lgiz2s", "reference": "LAY GREEN IN Z TWO SOON", "hypothesis": "LAY GREEN AT SET TWO SOON", "seconds": 0.9026}
+{"id": "grid/s2/lgwg1n", "reference": "LAY GREEN WITH G ONE NOW", "hypothesis": "LAY GREEN WITH G ONE NOW", "seconds": 0.8448}
+{"id": "grid/s2/lgwm6s", "reference": "LAY GREEN WITH M SIX SOON", "hypothesis": "LAY GREEN WITH M SIX SOON", "seconds": 0.9294}
+{"id": "grid/s2/lgwt2a", "reference": "LAY GREEN WITH T TWO AGAIN", "hypothesis": "LAY GREEN WITH C TWO AGAIN", "seconds": 1.3095}
+{"id": "grid/s2/lrae4a", "reference": "LAY RED AT E FOUR AGAIN", "hypothesis": "LAY RED AT T FOUR AGAIN", "seconds": 1.0726}
+{"id": "grid/s2/lrak6s", "reference": "LAY RED AT K SIX SOON", "hypothesis": "LITTLE RED AT K SIX SOON", "seconds": 1.1929}
+{"id": "grid/s2/lrak8a", "reference": "LAY RED AT K EIGHT AGAIN", "hypothesis": "LAY RED AT K AT", "seconds": 1.5628}
+{"id": "grid/s2/lray4s", "reference": "LAY RED AT Y FOUR SOON", "hypothesis": "GET RIGHT AWAY FOUR SOON", "seconds": 1.3835}
+{"id": "grid/s2/lray5p", "reference": "LAY RED AT Y FIVE PLEASE", "hypothesis": "LAY RED IN WHITE FIVE PLEASE", "seconds": 1.1266}
+{"id": "grid/s2/lrbe8a", "reference": "LAY RED BY E EIGHT AGAIN", "hypothesis": "LAY RED BY E IS AGAIN", "seconds": 0.9938}
+{"id": "grid/s2/lrbl2a", "reference": "LAY RED BY L TWO AGAIN", "hypothesis": "GET RED BY L TWO AGAIN", "seconds": 1.0404}
+{"id": "grid/s2/lrbr4s", "reference": "LAY RED BY R FOUR SOON", "hypothesis": "LAY RED BY R FOUR SOON", "seconds": 0.9588}
+{"id": "grid/s2/lrieza", "reference": "LAY RED IN E ZERO AGAIN", "hypothesis": "LAY RED AT ZERO AGAIN", "seconds": 0.8992}
+{"id": "grid/s2/lriq7p", "reference": "LAY RED IN Q SEVEN PLEASE", "hypothesis": "LAY RED AT Q SEVEN PLEASE", "seconds": 0.9743}
+{"id": "grid/s2/lrix9n", "reference": "LAY RED IN X NINE NOW", "hypothesis": "LAY RED AGAIN TONIGHT", "seconds": 1.0212}
+{"id": "grid/s2/lrwf1p", "reference": "LAY RED WITH F ONE PLEASE", "hypothesis": "LAY RED WITH F ONE PLEASE", "seconds": 0.8362}
+{"id": "grid/s2/lrwf2a", "reference": "LAY RED WITH F TWO AGAIN", "hypothesis": "LAY RED WITH F TWO AGAIN", "seconds": 0.9551}
+{"id": "grid/s2/lrwr8s", "reference": "LAY RED WITH R EIGHT SOON", "hypothesis": "LAY RED WITH R EIGHT SOON", "seconds": 0.7913}
+{"id": "grid/s2/lrwz3p", "reference": "LAY RED WITH Z THREE PLEASE", "hypothesis": "LAY RED WITH SET THREE PLEASE", "seconds": 0.9639}
+{"id": "grid/s2/lrwz4a", "reference": "LAY RED WITH Z FOUR AGAIN", "hypothesis": "LAY RED WITH SET FOUR AGAIN", "seconds": 0.9082}
+{"id": "grid/s2/lwae8s", "reference": "LAY WHITE AT E EIGHT SOON", "hypothesis": "LAY WHITE AT E EIGHT SOON", "seconds": 0.9488}
+{"id": "grid/s2/lwae9p", "reference": "LAY WHITE AT E NINE PLEASE", "hypothesis": "LAY WHITE AT T NINE PLEASE", "seconds": 0.8421}
+{"id": "grid/s2/lwbf4a", "reference": "LAY WHITE BY F FOUR AGAIN", "hypothesis": "LI WHITE BY FOUR AGAIN", "seconds": 0.733}
+{"id": "grid/s2/lwbs2a", "reference": "LAY WHITE BY S TWO AGAIN", "hypothesis": "LAY WHITE BY EIGHT TWO AGAIN", "seconds": 0.9406}
+{"id": "grid/s2/lwbz5p", "reference": "LAY WHITE BY Z FIVE PLEASE", "hypothesis": "LAY WHITE BY SET FIVE PLEASE", "seconds": 0.8095}
+{"id": "grid/s2/lwbz6a", "reference": "LAY WHITE BY Z SIX AGAIN", "hypothesis": "CLEAN WHITE BY SET SIX AGAIN", "seconds": 0.9096}
+{"id": "grid/s2/lwie3n", "reference": "LAY WHITE IN E THREE NOW", "hypothesis": "LAY WHITE AT E THREE NOW", "seconds": 0.9662}
+{"id": "grid/s2/lwik8s", "reference": "LAY WHITE IN K EIGHT SOON", "hypothesis": "LEAD WHITE IN TWO", "seconds": 0.8332}
+{"id": "grid/s2/lwir3p", "reference": "LAY WHITE IN R THREE PLEASE", "hypothesis": "LAY WHITE AT R THREE PLEASE", "seconds": 0.8347}
+{"id": "grid/s2/lwir4a", "reference": "LAY WHITE IN R FOUR AGAIN", "hypothesis": "LAY WHITE IN R FOUR AGAIN", "seconds": 0.8198}
+{"id": "grid/s2/lwwl9n", "reference": "LAY WHITE WITH L NINE NOW", "hypothesis": "LAY WHITE WITH L NINE NOW", "seconds": 1.1614}
+{"id": "grid/s2/lwwmzs", "reference": "LAY WHITE WITH M ZERO SOON", "hypothesis": "CLEAN WHITE WITH M ZERO SOON", "seconds": 1.0127}
+{"id": "grid/s2/lwws3n", "reference": "LAY WHITE WITH S THREE NOW", "hypothesis": "LAY WHITE WITH S THREE NOW", "seconds": 0.8487}
+{"id": "grid/s2/lwwz8s", "reference": "LAY WHITE WITH Z EIGHT SOON", "hypothesis": "LAY WHITE WITH C TWO", "seconds": 0.9302}
+{"id": "grid/s2/pbab9n", "reference": "PLACE BLUE AT B NINE NOW", "hypothesis": "PLACE BLUE WITH PETER", "seconds": 0.8855}
+{"id": "grid/s2/pbai3n", "reference": "PLACE BLUE AT I THREE NOW", "hypothesis": "PLACE BLUE AT JACK THREE NOW", "seconds": 0.9536}
+{"id": "grid/s2/pbao8s", "reference": "PLACE BLUE AT O EIGHT SOON", "hypothesis": "PLACE BLUE AT R EIGHT SOON", "seconds": 0.859}
+{"id": "grid/s2/pbbc4s", "reference": "PLACE BLUE BY C FOUR SOON", "hypothesis": "PLEASE BLUE BY STEP FOUR SOON", "seconds": 0.9425}
+{"id": "grid/s2/pbbv8a", "reference": "PLACE BLUE BY V EIGHT AGAIN", "hypothesis": "PLEASE BLUE BY VA AGAIN", "seconds": 0.8344}
+{"id": "grid/s2/pbiu7n", "reference": "PLACE BLUE IN U SEVEN NOW", "hypothesis": "PLACE BLUE AT TWO SEVEN NOW", "seconds": 0.8321}
+{"id": "grid/s2/pbiu9p", "reference": "PLACE BLUE IN U NINE PLEASE", "hypothesis": "PLACE BLUE IN U NINE PLEASE", "seconds": 0.8758}
+{"id": "grid/s2/pbwdza", "reference": "PLACE BLUE WITH D ZERO AGAIN", "hypothesis": "PLACE BLUE WITH C ZERO AGAIN", "seconds": 0.8878}
+{"id": "grid/s2/pbwj1n", "reference": "PLACE BLUE WITH J ONE NOW", "hypothesis": "PLACE BLUE WITH J ONE NOW", "seconds": 0.8661}
+{"id": "grid/s2/pbwj2s", "reference": "PLACE BLUE WITH J TWO SOON", "hypothesis": "PLACE BLUE WITH J TWO SOON", "seconds": 0.8622}
+{"id": "grid/s2/pbwx1p", "reference": "PLACE BLUE WITH X ONE PLEASE", "hypothesis": "PLACE BLUE WITH X ONE PLEASE", "seconds": 0.7856}
+{"id": "grid/s2/pgak1n", "reference": "PLACE GREEN AT K ONE NOW", "hypothesis": "PLACE GREEN AT K ONE NOW", "seconds": 0.7868}
+{"id": "grid/s2/pgaq5n", "reference": "PLACE GREEN AT Q FIVE NOW", "hypothesis": "PLACE GREEN AT Q FIVE NOW", "seconds": 0.9549}
+{"id": "grid/s2/pgbe3p", "reference": "PLACE GREEN BY E THREE PLEASE", "hypothesis": "PLACE GREEN BY THREE PLEASE", "seconds": 0.9039}
+{"id": "grid/s2/pgbk6s", "reference": "PLACE GREEN BY K SIX SOON", "hypothesis": "PLACE GREEN BY 9 SIX", "seconds": 1.0515}
+{"id": "grid/s2/pgby3n", "reference": "PLACE GREEN BY Y THREE NOW", "hypothesis": "PLACE GREEN BY Y THREE NOW", "seconds": 0.9055}
+{"id": "grid/s2/pgby4s", "reference": "PLACE GREEN BY Y FOUR SOON", "hypothesis": "PLACE GREEN BY WHITE FOUR SOON", "seconds": 0.9425}
+{"id": "grid/s2/pgby5p", "reference": "PLACE GREEN BY Y FIVE PLEASE", "hypothesis": "PLACE GREEN BY Y FIVE PLEASE", "seconds": 0.9333}
+{"id": "grid/s2/pgix5n", "reference": "PLACE GREEN IN X FIVE NOW", "hypothesis": "PLACE GREEN IN S FIVE NOW", "seconds": 0.9152}
+{"id": "grid/s2/pgwe5n", "reference": "PLACE GREEN WITH E FIVE NOW", "hypothesis": "PLACE GREEN WITH E FIVE NOW", "seconds": 0.7895}
+{"id": "grid/s2/pgwe8a", "reference": "PLACE GREEN WITH E EIGHT AGAIN", "hypothesis": "PLACE GREEN WITH K EIGHT AGAIN", "seconds": 0.9031}
+{"id": "grid/s2/pgwlzs", "reference": "PLACE GREEN WITH L ZERO SOON", "hypothesis": "PLACE GREEN WITH AL ZERO SOON", "seconds": 1.1028}
+{"id": "grid/s2/pgwr5p", "reference": "PLACE GREEN WITH R FIVE PLEASE", "hypothesis": "PLACE GREEN WITH R FIVE PLEASE", "seconds": 0.804}
+{"id": "grid/s2/prac6s", "reference": "PLACE RED AT C SIX SOON", "hypothesis": "PLACE RED AT C SIX SOON", "seconds": 0.9598}
+{"id": "grid/s2/praj1p", "reference": "PLACE RED AT J ONE PLEASE", "hypothesis": "PLACE RED AT J ONE PLEASE", "seconds": 0.9024}
+{"id": "grid/s2/prajzs", "reference": "PLACE RED AT J ZERO SOON", "hypothesis": "PLACE RED AT CHELSEA ALSO", "seconds": 1.1108}
+{"id": "grid/s2/prap4s", "reference": "PLACE RED AT P FOUR SOON", "hypothesis": "PLEASE RED AT B FOUR SOON", "seconds": 0.8877}
+{"id": "grid/s2/prbd2a", "reference": "PLACE RED BY D TWO AGAIN", "hypothesis": "PLACE RED BY C TWO AGAIN", "seconds": 0.9463}
+{"id": "grid/s2/prbp8s", "reference": "PLACE RED BY P EIGHT SOON", "hypothesis": "PLACE RED BY P AT SOON", "seconds": 0.8678}
+{"id": "grid/s2/prbx4a", "reference": "PLACE RED BY X FOUR AGAIN", "hypothesis": "PLACE RED BY X FOUR AGAIN", "seconds": 0.8374}
+{"id": "grid/s2/pric4a", "reference": "PLACE RED IN C FOUR AGAIN", "hypothesis": "PLEASE RED AT C FOUR AGAIN", "seconds": 0.9204}
+{"id": "grid/s2/prii7p", "reference": "PLACE RED IN I SEVEN PLEASE", "hypothesis": "PLACE RED LIGHT SEVEN PLEASE", "seconds": 0.8207}
+{"id": "grid/s2/prip2a", "reference": "PLACE RED IN P TWO AGAIN", "hypothesis": "PLACE RED IN P TWO AGAIN", "seconds": 0.8426}
+{"id": "grid/s2/pripzs", "reference": "PLACE RED IN P ZERO SOON", "hypothesis": "PLACE RED IN P ZERO SOON", "seconds": 0.9239}
+{"id": "grid/s2/priv6a", "reference": "PLACE RED IN V SIX AGAIN", "hypothesis": "PLACE FINAL V SIX AGAIN", "seconds": 0.8441}
+{"id": "grid/s2/prwd4s", "reference": "PLACE RED WITH D FOUR SOON", "hypothesis": "PLACE RED WITH C FOUR SOON", "seconds": 1.1041}
+{"id": "grid/s2/prwj7n", "reference": "PLACE RED WITH J SEVEN NOW", "hypothesis": "PLACE RED WITH J SEVEN NOW", "seconds": 0.899}
+{"id": "grid/s2/prwj9p", "reference": "PLACE RED WITH J NINE PLEASE", "hypothesis": "PLACE RED WITH J NINE PLEASE", "seconds": 0.9771}
+{"id": "grid/s2/prwq1n", "reference": "PLACE RED WITH Q ONE NOW", "hypothesis": "PLACE RED WITH Q ONE NOW", "seconds": 0.9663}
+{"id": "grid/s2/prwx6s", "reference": "PLACE RED WITH X SIX SOON", "hypothesis": "PLACE RED WITH N SIX SOON", "seconds": 0.9749}
+{"id": "grid/s2/pwad1n", "reference": "PLACE WHITE AT D ONE NOW", "hypothesis": "PLACE WHITE AT T ONE NOW", "seconds": 0.8306}
+{"id": "grid/s2/pwaj8a", "reference": "PLACE WHITE AT J EIGHT AGAIN", "hypothesis": "PLACE WHITE IN J EIGHT AGAIN", "seconds": 1.2793}
+{"id": "grid/s2/pwap9n", "reference": "PLACE WHITE AT P NINE NOW", "hypothesis": "PLACE WHITE AT P NINE NOW", "seconds": 0.9714}
+{"id": "grid/s2/pwaq2a", "reference": "PLACE WHITE AT Q TWO AGAIN", "hypothesis": "PLACE WHITE AT Q TWO AGAIN", "seconds": 0.9789}
+{"id": "grid/s2/pwaqzs", "reference": "PLACE WHITE AT Q ZERO SOON", "hypothesis": "PLACE WHITE AT U C AROUND SOON", "seconds": 0.8639}
+{"id": "grid/s2/pwax4s", "reference": "PLACE WHITE AT X FOUR SOON", "hypothesis": "PLACE WHITE AT X FOUR SOON", "seconds": 0.8367}
+{"id": "grid/s2/pwbd5n", "reference": "PLACE WHITE BY D FIVE NOW", "hypothesis": "PLACE WHITE BY C FIVE NOW", "seconds": 0.9084}
+{"id": "grid/s2/pwbq3n", "reference": "PLACE WHITE BY Q THREE NOW", "hypothesis": "PLACE WHITE BY U RIGHT NOW", "seconds": 0.8065}
+{"id": "grid/s2/pwbq5p", "reference": "PLACE WHITE BY Q FIVE PLEASE", "hypothesis": "PLACE WHITE BY Q FIVE PLEASE", "seconds": 1.2154}
+{"id": "grid/s2/pwic8s", "reference": "PLACE WHITE IN C EIGHT SOON", "hypothesis": "PLACE WHITE AT C TWO", "seconds": 0.8293}
+{"id": "grid/s2/pwic9p", "reference": "PLACE WHITE IN C NINE PLEASE", "hypothesis": "PLACE WHITE AT C L PLEASE", "seconds": 0.8942}
+{"id": "grid/s2/pwij2s", "reference": "PLACE WHITE IN J TWO SOON", "hypothesis": "PLACE WHITE AT J TWO SOON", "seconds": 0.9746}
+{"id": "grid/s2/pwix1p", "reference": "PLACE WHITE IN X ONE PLEASE", "hypothesis": "PLACE WHITE AT H ONE PLEASE", "seconds": 0.9017}
+{"id": "grid/s2/pwix2a", "reference": "PLACE WHITE IN X TWO AGAIN", "hypothesis": "PLACE WHITE IN EIGHT TWO AGAIN", "seconds": 0.9526}
+{"id": "grid/s2/pwwd9n", "reference": "PLACE WHITE WITH D NINE NOW", "hypothesis": "PLACE WHITE WITH C NINE NOW", "seconds": 0.9052}
+{"id": "grid/s2/pwwezs", "reference": "PLACE WHITE WITH E ZERO SOON", "hypothesis": "PLACE WHITE WITH E ZERO SOON", "seconds": 0.9255}
+{"id": "grid/s2/pwwk4s", "reference": "PLACE WHITE WITH K FOUR SOON", "hypothesis": "PLACE WHITE WITH K FOUR SOON", "seconds": 0.8305}
+{"id": "grid/s2/pwwk5p", "reference": "PLACE WHITE WITH K FIVE PLEASE", "hypothesis": "PLEASE WHITE WITH A FIVE PLEASE", "seconds": 0.8261}
+{"id": "grid/s2/pwwy2s", "reference": "PLACE WHITE WITH Y TWO SOON", "hypothesis": "PLACE WHITE WITH WHITE TWO SOON", "seconds": 0.8419}
+{"id": "grid/s2/sbaa4s", "reference": "SET BLUE AT A FOUR SOON", "hypothesis": "SET BLUE AT 10 FOUR SOON", "seconds": 0.8487}
+{"id": "grid/s2/sbaa6a", "reference": "SET BLUE AT A SIX AGAIN", "hypothesis": "SET BLUE J AT T AGAIN", "seconds": 1.0987}
+{"id": "grid/s2/sban4a", "reference": "SET BLUE AT N FOUR AGAIN", "hypothesis": "SET BLUE AT 10 FOUR AGAIN", "seconds": 0.936}
+{"id": "grid/s2/sbat7p", "reference": "SET BLUE AT T SEVEN PLEASE", "hypothesis": "SET BLUE IN T SEVEN PLEASE", "seconds": 0.9177}
+{"id": "grid/s2/sbbh2s", "reference": "SET BLUE BY H TWO SOON", "hypothesis": "SET BLUE BY S TWO SOON", "seconds": 0.9778}
+{"id": "grid/s2/sbbh3p", "reference": "SET BLUE BY H THREE PLEASE", "hypothesis": "SET BLUE BY H THREE PLEASE", "seconds": 0.8357}
+{"id": "grid/s2/sbbn8a", "reference": "SET BLUE BY N EIGHT AGAIN", "hypothesis": "SET BLUE BY N EIGHT", "seconds": 0.8055}
+{"id": "grid/s2/sbbt9n", "reference": "SET BLUE BY T NINE NOW", "hypothesis": "SET BLUE BY Z RIGHT NOW", "seconds": 1.2045}
+{"id": "grid/s2/sbig3n", "reference": "SET BLUE IN G THREE NOW", "hypothesis": "SET BLUE IN G THREE NOW", "seconds": 0.8674}
+{"id": "grid/s2/sbim8s", "reference": "SET BLUE IN M EIGHT SOON", "hypothesis": "SET BLUE AT M EIGHT SOON", "seconds": 0.8812}
+{"id": "grid/s2/sbit3p", "reference": "SET BLUE IN T THREE PLEASE", "hypothesis": "SET BLUE IN 10 THREE PLEASE", "seconds": 0.8065}
+{"id": "grid/s2/sbwu6a", "reference": "SET BLUE WITH U SIX AGAIN", "hypothesis": "SET BILL WITH U SIX AGAIN", "seconds": 0.836}
+{"id": "grid/s2/sgac4a", "reference": "SET GREEN AT C FOUR AGAIN", "hypothesis": "SET GREEN AT C FOUR AGAIN", "seconds": 0.9123}
+{"id": "grid/s2/sgap1p", "reference": "SET GREEN AT P ONE PLEASE", "hypothesis": "SET GREEN AT P ONE PLEASE", "seconds": 0.796}
+{"id": "grid/s2/sgapzs", "reference": "SET GREEN AT P ZERO SOON", "hypothesis": "SET GREEN AT B ZERO SOON", "seconds": 1.3541}
+{"id": "grid/s2/sgav4s", "reference": "SET GREEN AT V FOUR SOON", "hypothesis": "SET GREEN V FOUR SOON", "seconds": 0.8551}
+{"id": "grid/s2/sgbi9n", "reference": "SET GREEN BY I NINE NOW", "hypothesis": "SET GREEN BY I", "seconds": 0.8757}
+{"id": "grid/s2/sgbjzs", "reference": "SET GREEN BY J ZERO SOON", "hypothesis": "SET GREEN BY JC ROUND TWO", "seconds": 1.1094}
+{"id": "grid/s2/sgib9p", "reference": "SET GREEN IN B NINE PLEASE", "hypothesis": "SET GREEN AT B NINE PLEASE", "seconds": 0.8007}
+{"id": "grid/s2/sgicza", "reference": "SET GREEN IN C ZERO AGAIN", "hypothesis": "SET THE RED AT C ZERO AGAIN", "seconds": 1.0095}
+{"id": "grid/s2/sgii3p", "reference": "SET GREEN IN I THREE PLEASE", "hypothesis": "SET RED AT I THREE PLEASE", "seconds": 1.0809}
+{"id": "grid/s2/sgio5n", "reference": "SET GREEN IN O FIVE NOW", "hypothesis": "SET GREEN AT R FIVE NOW", "seconds": 0.9434}
+{"id": "grid/s2/sgwd1p", "reference": "SET GREEN WITH D ONE PLEASE", "hypothesis": "SET GREEN WITH C ONE PLEASE", "seconds": 0.8024}
+{"id": "grid/s2/sgwd2a", "reference": "SET GREEN WITH D TWO AGAIN", "hypothesis": "SET GREEN WITH SIX TWO AGAIN", "seconds": 0.9338}
+{"id": "grid/s2/sgwp8s", "reference": "SET GREEN WITH P EIGHT SOON", "hypothesis": "SET GREEN WITH P A SOON", "seconds": 0.8929}
+{"id": "grid/s2/sgwx3p", "reference": "SET GREEN WITH X THREE PLEASE", "hypothesis": "SET GREEN WITH X THREE PLEASE", "seconds": 0.7936}
+{"id": "grid/s2/srab2a", "reference": "SET RED AT B TWO AGAIN", "hypothesis": "SET RED IN P TWO AGAIN", "seconds": 0.8318}
+{"id": "grid/s2/srah5p", "reference": "SET RED AT H FIVE PLEASE", "hypothesis": "SET RED AT H FIVE PLEASE", "seconds": 0.8277}
+{"id": "grid/s2/sran8s", "reference": "SET RED AT N EIGHT SOON", "hypothesis": "SET RED TEN EIGHT SOON", "seconds": 0.892}
+{"id": "grid/s2/srau3p", "reference": "SET RED AT U THREE PLEASE", "hypothesis": "SET RED SOON ONE PLEASE", "seconds": 0.9085}
+{"id": "grid/s2/srbb6a", "reference": "SET RED BY B SIX AGAIN", "hypothesis": "SET RED BY B SIX AGAIN", "seconds": 0.8314}
+{"id": "grid/s2/srbh7n", "reference": "SET RED BY H SEVEN NOW", "hypothesis": "SET RED BY AGE SEVEN NOW", "seconds": 0.8387}
+{"id": "grid/s2/srbiza", "reference": "SET RED BY I ZERO AGAIN", "hypothesis": "SET RED BY AT ZERO AGAIN", "seconds": 0.8376}
+{"id": "grid/s2/srbo1n", "reference": "SET RED BY O ONE NOW", "hypothesis": "SET RED BY R ONE NOW", "seconds": 0.8068}
+{"id": "grid/s2/srbu6s", "reference": "SET RED BY U SIX SOON", "hypothesis": "SET RED BY U SIX SOON", "seconds": 0.8019}
+{"id": "grid/s2/srbu7p", "reference": "SET RED BY U SEVEN PLEASE", "hypothesis": "SET RED BY Q SEVEN PLEASE", "seconds": 0.847}
+{"id": "grid/s2/srbu8a", "reference": "SET RED BY U EIGHT AGAIN", "hypothesis": "SET RED BY US AGAIN", "seconds": 0.8044}
+{"id": "grid/s2/sria5n", "reference": "SET RED IN A FIVE NOW", "hypothesis": "SET RED IN A FIVE NOW", "seconds": 0.8979}
+{"id": "grid/s2/sria7p", "reference": "SET RED IN A SEVEN PLEASE", "hypothesis": "SET RED AT EIGHT SEVEN PLEASE", "seconds": 0.8892}
+{"id": "grid/s2/srig9n", "reference": "SET RED IN G NINE NOW", "hypothesis": "SET RED IN G NINE NOW", "seconds": 0.823}
+{"id": "grid/s2/srin4s", "reference": "SET RED IN N FOUR SOON", "hypothesis": "SET RED AGAIN FOUR SOON", "seconds": 0.8056}
+{"id": "grid/s2/srit7n", "reference": "SET RED IN T SEVEN NOW", "hypothesis": "SET RED AT C SEVEN NOW", "seconds": 0.895}
+{"id": "grid/s2/srwb8s", "reference": "SET RED WITH B EIGHT SOON", "hypothesis": "SET RED WITH P TWO", "seconds": 0.8677}
+{"id": "grid/s2/srwcza", "reference": "SET RED WITH C ZERO AGAIN", "hypothesis": "SET RED WITH C ZERO AGAIN", "seconds": 1.1691}
+{"id": "grid/s2/srwi1n", "reference": "SET RED WITH I ONE NOW", "hypothesis": "SET RED WITH I ONE NOW", "seconds": 0.8959}
+{"id": "grid/s2/srwi3p", "reference": "SET RED WITH I THREE PLEASE", "hypothesis": "SET RED WITH I THREE PLEASE", "seconds": 0.9171}
+{"id": "grid/s2/srwu9n", "reference": "SET RED WITH U NINE NOW", "hypothesis": "SET RED WITH YOU NOW", "seconds": 0.8744}
+{"id": "grid/s2/srwv1p", "reference": "SET RED WITH V ONE PLEASE", "hypothesis": "SET RED WITH V ONE PLEASE", "seconds": 0.5034}
+{"id": "grid/s2/srwv2a", "reference": "SET RED WITH V TWO AGAIN", "hypothesis": "SET RED WITH V TWO AGAIN", "seconds": 0.8343}
+{"id": "grid/s2/swab7p", "reference": "SET WHITE AT B SEVEN PLEASE", "hypothesis": "SET WHITE IN B SEVEN PLEASE", "seconds": 0.8183}
+{"id": "grid/s2/swab8a", "reference": "SET WHITE AT B EIGHT AGAIN", "hypothesis": "SET WHITE AT B EIGHT AGAIN", "seconds": 0.9993}
+{"id": "grid/s2/swah9n", "reference": "SET WHITE AT H NINE NOW", "hypothesis": "SET WHITE AT H NINE NOW", "seconds": 0.9648}
+{"id": "grid/s2/swaizs", "reference": "SET WHITE AT I ZERO SOON", "hypothesis": "SET WHITE AT NINE SEVEN SOON", "seconds": 1.0453}
+{"id": "grid/s2/swao3n", "reference": "SET WHITE AT O THREE NOW", "hypothesis": "SET WHITE AT O THREE NOW", "seconds": 1.1327}
+{"id": "grid/s2/swbi3n", "reference": "SET WHITE BY I THREE NOW", "hypothesis": "SET WHITE BY R THREE NOW", "seconds": 0.8483}
+{"id": "grid/s2/swbo7n", "reference": "SET WHITE BY O SEVEN NOW", "hypothesis": "SET WHITE BY 0 SEVEN NOW", "seconds": 0.9049}
+{"id": "grid/s2/swbo8s", "reference": "SET WHITE BY O EIGHT SOON", "hypothesis": "SET WHITE BY 0 EIGHT SOON", "seconds": 0.9306}
+{"id": "grid/s2/swbpza", "reference": "SET WHITE BY P ZERO AGAIN", "hypothesis": "SET WHITE BY P ZERO AGAIN", "seconds": 0.8446}
+{"id": "grid/s2/swbv4a", "reference": "SET WHITE BY V FOUR AGAIN", "hypothesis": "SET WHITE BY V FOUR AGAIN", "seconds": 0.884}
+{"id": "grid/s2/swib4a", "reference": "SET WHITE IN B FOUR AGAIN", "hypothesis": "SET WHITE IN B FOUR AGAIN", "seconds": 0.8981}
+{"id": "grid/s2/swiu3n", "reference": "SET WHITE IN U THREE NOW", "hypothesis": "SET WHITE IN TWO THREE NOW", "seconds": 0.943}
+{"id": "grid/s2/swwi8s", "reference": "SET WHITE WITH I EIGHT SOON", "hypothesis": "SET WHITE WITH I TWO", "seconds": 0.8955}

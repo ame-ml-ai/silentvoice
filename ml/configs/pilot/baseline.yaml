@@ -1,0 +1,14 @@
+# PILOT (2026-11-10, deadline run): Experiment A on a subset, NOT the final protocol.
+# Data: GRID s1-s6 only. Test = 500 clips (250 each from s1, s2; seed 0), see manifest_pilot.jsonl.
+experiment: pilot_baseline
+output_dir: experiments/pilot/baseline
+seed: 42
+checkpoint: checkpoints/vsr_trlrs3vox2_base.pth
+manifest: data/processed/grid/manifest_pilot.jsonl
+data_root: data/processed/grid/videos
+split: test
+device: cuda
+decode:
+  beam_size: 40
+  ctc_weight: 0.1
+  length_penalty: 0.0

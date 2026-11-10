@@ -95,8 +95,21 @@ negligible for 3 s clips; weights + AdamW dominate. `finetune_grid.yaml` is back
 - Baseline smoke (`--limit 100`, s1, beam 40, GPU): WER 0.857, CER 0.617, 1.21 s/clip, RTF 0.40,
   peak GPU 1.19 GB. Smoke numbers only; not an experiment result.
 
+### Pilot experiment (deadline run, 17:28-17:50)
+- Data: s1-s6 preprocessed (6,000 clips, 0 failures). Pilot manifest `data/processed/grid/manifest_pilot.jsonl`:
+  train s5+s6 (2,000), val s3+s4 (2,000; 200 sampled for WER), test 500 clips (250 of s1, 250 of s2, seed 0;
+  ids committed in `experiments/pilot/test_ids.txt`).
+- Configs `ml/configs/pilot/{baseline,finetune,finetuned_eval}.yaml`; fine-tune = finetune_grid.yaml with
+  2 epochs, warmup 20, val_max_samples 200.
+- **Baseline WER 0.867 / CER 0.628 -> fine-tuned WER 0.224 / CER 0.146** (same 500 clips, beam 40).
+  Training: 124 steps, 470 s, peak 2.96 GB; val WER 0.239 (epoch 1) -> 0.165 (epoch 2).
+- Latency in these result files is confounded (evaluations ran concurrently with each other and with training).
+- New `scripts/progress.py` (`--watch`): download / preprocessing / training ETA / evaluation progress bars.
+- GRID download: all 34 zips present (parallel fetch, 6 connections; ~4-9 MB/s vs ~1.3 MB/s sequential).
+
 ### Remaining
-- Download the other 31 GRID speakers (~12.8 GB), preprocess (~40 min est.), then Experiments A and B.
+- Unzip s7-s34 (the parallel fetch did not extract them), preprocess all talkers, then the full Experiments A
+  and B with `ml/configs/baseline_grid.yaml`, `finetune_grid.yaml`, `finetuned_grid_eval.yaml` (~5-10 h).
 
 ## Next
 Follow [docs/GPU_SETUP_RTX4060_LAPTOP.md](docs/GPU_SETUP_RTX4060_LAPTOP.md). First action after

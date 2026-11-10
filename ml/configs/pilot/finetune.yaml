@@ -1,0 +1,32 @@
+# PILOT (2026-11-10, deadline run): finetune_grid.yaml with train = s5+s6 only (2,000 clips),
+# val = s3+s4 (200 sampled for WER), 2 epochs, warmup 20 steps. Not the final Experiment B.
+experiment: pilot_finetune
+output_dir: experiments/pilot/finetuning
+seed: 42
+checkpoint: checkpoints/vsr_trlrs3vox2_base.pth
+manifest: data/processed/grid/manifest_pilot.jsonl
+data_root: data/processed/grid/videos
+device: cuda
+freeze:
+  strategy: encoder_top_k
+  encoder_trainable_blocks: 4
+  freeze_batchnorm: true
+optim:
+  lr: 1.0e-05
+  weight_decay: 0.03
+  betas:
+  - 0.9
+  - 0.98
+  warmup_steps: 20
+  grad_clip: 10.0
+train:
+  max_epochs: 2
+  max_frames_per_batch: 600
+  max_batch_size: 8
+  grad_accum_steps: 4
+  amp_dtype: bf16
+  num_workers: 4
+  early_stopping_patience: 3
+  log_every_steps: 20
+  val_max_samples: 200
+  val_beam_size: 10
