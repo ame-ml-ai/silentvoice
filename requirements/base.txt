@@ -1,0 +1,19 @@
+# Shared runtime dependencies (both machines). Versions verified on macOS arm64 /
+# Python 3.11.x on 2026-11-10. torch / torchvision are NOT listed here: install them
+# from requirements/cpu.txt (Mac) or per docs/GPU_SETUP_RTX5070.md (CUDA).
+numpy==2.2.6
+# mediapipe 0.10.14 is the newest release that still ships the legacy
+# `mp.solutions.face_detection` API that Auto-AVSR's detector calls (1.x removed it).
+# It pulls in opencv-contrib-python; do not also install opencv-python(-headless).
+mediapipe==0.10.14
+opencv-contrib-python==5.0.0.93
+scikit-image==0.26.0
+sentencepiece==0.2.3
+jiwer==4.0.0
+pyyaml==6.0.3
+# backend
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+python-multipart==0.0.33
+pydantic==2.14.3
+pydantic-settings==2.16.2

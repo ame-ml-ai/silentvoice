@@ -1,0 +1,6 @@
+# Environment B - RTX 5070 / CUDA.
+# Install torch + torchvision FIRST from the PyTorch CUDA index chosen in
+# docs/GPU_SETUP_RTX5070.md (RTX 50-series / sm_120 needs a CUDA 12.8 or newer build),
+# then:  pip install -r requirements/gpu.txt
+-r base.txt
+-r dev.txt

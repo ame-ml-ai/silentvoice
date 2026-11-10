@@ -1,0 +1,37 @@
+# Experiment B: partial fine-tuning of the same checkpoint on GRID train speakers.
+# Starting hypotheses from the project brief; validate with scripts/gpu_memory_probe.py first.
+experiment: finetune_grid_partial
+output_dir: experiments/finetuning
+seed: 42
+checkpoint: checkpoints/vsr_trlrs3vox2_base.pth
+manifest: data/processed/grid/manifest.jsonl
+data_root: data/processed/grid/videos
+device: cuda          # training refuses to run without CUDA unless --cpu-smoke is passed
+
+freeze:
+  # one of: decoder_only | encoder_top_k | full
+  strategy: encoder_top_k
+  encoder_trainable_blocks: 4   # top-4 of 12 Conformer blocks + decoder + CTC head train
+  freeze_batchnorm: true        # keep frontend BN running statistics fixed
+
+optim:
+  lr: 1.0e-5
+  weight_decay: 0.03
+  betas: [0.9, 0.98]
+  warmup_steps: 200
+  grad_clip: 10.0             # Auto-AVSR Trainer default
+
+train:
+  max_epochs: 10
+  max_frames_per_batch: 600   # GRID clips are 75 frames -> up to 8 clips per micro-batch
+  max_batch_size: 8
+  grad_accum_steps: 4
+  amp_dtype: bf16             # bf16 on RTX 50-series; "fp16" uses GradScaler; "none" disables
+  num_workers: 6
+  early_stopping_patience: 3  # validation every epoch; best.pth = lowest validation WER (never test)
+  log_every_steps: 20
+  val_max_samples: 400        # validation WER on a fixed, seeded subset of val speakers
+  val_beam_size: 10           # cheaper decoding during training; final eval uses eval_decode
+
+# Test-set evaluation of best.pth uses ml/configs/finetuned_grid_eval.yaml, whose decode
+# settings are identical to baseline_grid.yaml (same protocol for Experiments A and B).

@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Datasets and model weights: never committed (licensing + size)
+data/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.npz
+
+# Experiment artefacts that are large or machine-local.
+# results.json, training_summary.json, train_log.jsonl and predictions*.jsonl ARE committed.
+experiments/**/checkpoints/
+experiments/**/smoke/
+experiments/**/results_smoke.json
+experiments/**/predictions_smoke.jsonl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,4 @@
+pytest==9.2.0
+httpx==0.28.1
+# provides an ffmpeg binary used only by tests that attach audio tracks to videos
+imageio-ffmpeg==0.8.1

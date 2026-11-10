@@ -1,0 +1,14 @@
+# Experiment B evaluation: the fine-tuned best.pth on the SAME test split with the SAME
+# decoding settings as baseline_grid.yaml. Only `experiment`, `output_dir` and `checkpoint` differ.
+experiment: finetuning
+output_dir: experiments/finetuning
+seed: 42
+checkpoint: experiments/finetuning/checkpoints/best.pth
+manifest: data/processed/grid/manifest.jsonl
+data_root: data/processed/grid/videos
+split: test
+device: cuda
+decode:
+  beam_size: 40
+  ctc_weight: 0.1
+  length_penalty: 0.0

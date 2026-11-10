@@ -1,0 +1,8 @@
+# Speaker-disjoint GRID splits.
+# test: the "unseen speakers" protocol of LipNet (Assael et al., 2016): s1, s2, s20, s22.
+# val:  two further held-out speakers, used for checkpoint selection and early stopping.
+# train: all remaining talkers. s21 has no video in the Zenodo release.
+test: [s1, s2, s20, s22]
+val: [s3, s4]
+train: [s5, s6, s7, s8, s9, s10, s11, s12, s13, s14, s15, s16, s17, s18, s19,
+        s23, s24, s25, s26, s27, s28, s29, s30, s31, s32, s33, s34]

@@ -1,0 +1,20 @@
+[project]
+name = "silentvoice"
+version = "0.1.0"
+description = "Visual-only speech recognition research prototype built on Auto-AVSR"
+requires-python = ">=3.11,<3.12"
+license = { text = "Apache-2.0" }
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests", "backend/tests"]
+markers = [
+    "slow: CPU-heavy tests (full 250M-parameter forward/backward); deselect with -m 'not slow'",
+    "gpu: requires CUDA; skipped automatically on machines without it",
+]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::UserWarning"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+extend-exclude = ["third_party", "frontend"]
