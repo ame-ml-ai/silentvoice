@@ -3,9 +3,9 @@
 **Visual-only speech recognition research prototype.** SilentVoice reads speech from video
 of a speaker's mouth, with no audio, using the pretrained Auto-AVSR visual speech
 recognition model. It studies whether partial fine-tuning on a new domain (the GRID
-corpus) improves recognition on unseen speakers, within one 12 GB GPU.
+corpus) improves recognition on unseen speakers, on a single consumer GPU (RTX 4060 Laptop, 8 GB).
 
-**Team:** Baizhanov Esmanlhan, Temirtasov Sultankhan, Nisanbayev Madiyar, Altynbekuly Temirlan.
+**Team:** Baizhanov Esmankhan, Temirtasov Sultankhan, Nisanbayev Madiyar, Altynbekuly Temirlan.
 
 **Live demo (research dashboard, static):** <https://silentvoice-alpha.vercel.app/research>
 · live recognition needs the GPU backend, so it runs only locally.
@@ -60,9 +60,9 @@ frontend/           React + TypeScript + Vite + Tailwind
 ml/                 data/ preprocessing/ inference/ evaluation/ training/ utils/ configs/
 scripts/            gpu_check.py · gpu_memory_probe.py · verify_checkpoint.py · download_grid.sh
 tests/ml/           ML unit, smoke and no-audio tests
-experiments/        results written by the scripts (currently empty: pending)
+experiments/        results written by the scripts (pilot complete; full protocol pending)
 third_party/auto_avsr   git submodule, pinned to 182b628 (Apache-2.0)
-docs/GPU_SETUP_RTX5070.md
+docs/GPU_SETUP_RTX4060_LAPTOP.md · docs/GPU_SETUP_RTX5070.md
 ```
 
 ## Setup: Mac / CPU development (Environment A)
@@ -99,7 +99,7 @@ SILENTVOICE_CHECKPOINT_PATH=checkpoints/vsr_trlrs3vox2_base.pth uvicorn backend.
 ```
 
 On the Mac this runs on CPU (MPS is not supported by the upstream CTC scorer). CPU
-latency is not representative of the RTX 5070.
+latency is not representative of a CUDA GPU.
 
 ### API
 
@@ -140,7 +140,7 @@ What the tests cover:
 
 ## Commands by environment
 
-| | Mac (CPU) | RTX 5070 (CUDA) |
+| | Mac (CPU) | RTX 4060 Laptop (CUDA) |
 |---|---|---|
 | Environment check | `python -m pytest -q` | `python scripts/gpu_check.py` |
 | Smoke: evaluation | `... evaluate --config ml/configs/baseline_grid.yaml --device cpu --limit 5` | — |

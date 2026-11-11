@@ -74,7 +74,7 @@ export default function ResearchPage() {
         <div className="mb-6">
           <Callout kind="pending" title="Experiments not run yet">
             <ul className="list-disc space-y-0.5 pl-4">{c.reasons.map((r) => <li key={r}>{r}</li>)}</ul>
-            <p className="mt-2">Both runs are scheduled for the RTX 5070 machine. See <span className="font-mono text-fg">CONTINUE_ON_RTX5070.md</span> for the exact commands.</p>
+            <p className="mt-2">Both runs are scheduled for the RTX 4060 Laptop. See <span className="font-mono text-fg">docs/GPU_SETUP_RTX4060_LAPTOP.md</span> for the exact commands.</p>
           </Callout>
         </div>
       )}

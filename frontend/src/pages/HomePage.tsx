@@ -19,7 +19,7 @@ export default function HomePage() {
           </h1>
           <p className="mt-4 max-w-2xl text-[15px] leading-relaxed text-fg-muted">
             A research prototype that asks whether fine-tuning a pretrained lip-reading model on a new domain improves recognition
-            under the limits of a single 12 GB GPU. The recognizer only ever sees a cropped video of the mouth.
+            under the limits of a single 8 GB laptop GPU. The recognizer only ever sees a cropped video of the mouth.
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link to="/recognize" className="inline-flex h-10 items-center gap-2 rounded-md bg-accent px-4 text-sm font-medium text-ink-950 hover:bg-accent/90">
