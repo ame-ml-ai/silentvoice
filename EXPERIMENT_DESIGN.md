@@ -9,7 +9,7 @@ Operationalised:
 - **Model:** Auto-AVSR `vsr_trlrs3vox2_base` (250.4M parameters).
 - **Target domain:** GRID.
 - **Evaluation set:** the 4 unseen test speakers (s1, s2, s20, s22).
-- **Budget:** a single RTX 5070 with 12 GB.
+- **Budget:** a single consumer GPU. The experiments run on an RTX 4060 Laptop with 8 GB (an RTX 5070 with 12 GB was the original plan).
 
 **Hypothesis:** partial fine-tuning on 27 GRID training speakers lowers test WER relative
 to the zero-shot pretrained model.

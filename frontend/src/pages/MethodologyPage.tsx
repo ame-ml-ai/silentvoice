@@ -40,7 +40,7 @@ export default function MethodologyPage() {
           </Section>
           <Section id="question" title="Research question">
             <p>Can fine-tuning a pretrained visual speech recognition model improve recognition performance on a selected evaluation dataset under
-              limited computational resources (one RTX 5070, 12 GB)?</p>
+              limited computational resources (one RTX 4060 Laptop GPU, 8 GB)?</p>
           </Section>
           <Section id="data" title="Dataset">
             <p><strong className="text-fg">GRID</strong> (Cooke et al., 2006): 33 talkers with usable video, 1,000 fixed-grammar sentences each
@@ -61,7 +61,7 @@ export default function MethodologyPage() {
           <Section id="training" title="Training approach">
             <p>Partial fine-tuning keeps the visual frontend and the lower 8 Conformer blocks frozen and trains the top 4 encoder blocks, the
               decoder and the CTC head (125.2M of 250.4M parameters). AdamW at 1e-5 with warmup and cosine decay, bf16 mixed precision,
-              gradient accumulation and frame-budget batching keep memory inside 12 GB. The checkpoint with the lowest validation WER is kept.</p>
+              gradient accumulation and frame-budget batching keep memory inside 8 GB (measured peak: 2.96 GB). The checkpoint with the lowest validation WER is kept.</p>
           </Section>
           <Section id="metrics" title="Metrics">
             <p><strong className="text-fg">Word error rate</strong> = (S + D + I) / N, the substitutions, deletions and insertions needed to turn

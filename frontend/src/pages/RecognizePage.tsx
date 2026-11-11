@@ -219,7 +219,7 @@ export default function RecognizePage() {
           {health.data && (
             <p className="text-xs text-fg-subtle">
               Server device: <span className="font-mono">{health.data.device}</span>
-              {health.data.device === 'cpu' && ' · CPU timings are not representative of the RTX 5070.'}
+              {health.data.device === 'cpu' && ' · CPU timings are not representative of a CUDA GPU.'}
             </p>
           )}
         </div>
